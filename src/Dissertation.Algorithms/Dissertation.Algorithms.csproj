@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9AF6BEFE-B810-4237-BF5D-B86FB8541C1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dissertation.Algorithms</RootNamespace>
+    <AssemblyName>Dissertation.Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ATS.WPF.Modules">
+      <HintPath>..\avalontestsystem\ATS.WPF.Modules\bin\Release\ATS.WPF.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot, Version=2.0.0.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
+      <HintPath>..\Dissertation\packages\OxyPlot.Core.2.0.0\lib\net45\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.Wpf, Version=2.0.0.0, Culture=neutral, PublicKeyToken=75e952ba404cdbb0, processorArchitecture=MSIL">
+      <HintPath>..\Dissertation\packages\OxyPlot.Wpf.2.0.0\lib\net45\OxyPlot.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstractions\IMeasurementExecutor.cs" />
+    <Compile Include="Algorithms\Newton\IFunction.cs" />
+    <Compile Include="Algorithms\Newton\IFunctionDerivate.cs" />
+    <Compile Include="Algorithms\Newton\NewtonAlgorithm.cs" />
+    <Compile Include="Helpers\DoubleExtensions.cs" />
+    <Compile Include="Helpers\EnumerableExtensions.cs" />
+    <Compile Include="Helpers\ForEachEx.cs" />
+    <Compile Include="Helpers\MatrixExtensions.cs" />
+    <Compile Include="Metrica\FeatureModel.cs" />
+    <Compile Include="Metrica\FeaturesGeneratorModel.cs" />
+    <Compile Include="Metrica\MetricaExtensions.cs" />
+    <Compile Include="Metrica\MetricaModel.cs" />
+    <Compile Include="Metrica\MetricaResults\AngleOfViewMR.cs" />
+    <Compile Include="Metrica\MetricaResults\AngleWidthMR.cs" />
+    <Compile Include="Metrica\MetricaResults\AverageEarchRadiusMR.cs" />
+    <Compile Include="Metrica\MetricaResults\AverageOrbitHeightMR.cs" />
+    <Compile Include="Metrica\MetricaResults\CaptuzeZoneMR.cs" />
+    <Compile Include="Metrica\MetricaResults\InvariantSectorSizeMR.cs" />
+    <Compile Include="Metrica\MetricaResults\LinearWidthMR.cs" />
+    <Compile Include="Metrica\MetricaResults\MetricaResultBase.cs" />
+    <Compile Include="Metrica\MetricaResults\PeriodicityViewMR.cs" />
+    <Compile Include="Metrica\SattelitePeriodicityViewMetrica.cs" />
+    <Compile Include="Metrica\Visuals\GraphicWindow.xaml.cs">
+      <DependentUpon>GraphicWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Annotations.cs" />
+    <Compile Include="Model\CaptureZonez.cs" />
+    <Compile Include="Model\FundamentalSatelliteZone.cs" />
+    <Compile Include="Model\FundamentalZonesLimits.cs" />
+    <Compile Include="Model\InvariantSectorsParameters.cs" />
+    <Compile Include="Model\Latitude.cs" />
+    <Compile Include="Model\Longitude.cs" />
+    <Compile Include="Model\NodeTime.cs" />
+    <Compile Include="Model\ObservationAreaModel.cs" />
+    <Compile Include="Model\ObservationInfo.cs" />
+    <Compile Include="Model\ObservationVariantGroup.cs" />
+    <Compile Include="Model\ObservationVariantModel.cs" />
+    <Compile Include="Model\OrbitAverageHeightAlgorithm.cs" />
+    <Compile Include="Model\OrbitGeometryInfo.cs" />
+    <Compile Include="Model\OrbitParameters.cs" />
+    <Compile Include="Model\PeriodicityViewModel.cs" />
+    <Compile Include="Model\PeriodicityViewTaskParameters.cs" />
+    <Compile Include="Model\SatelliteOld.cs" />
+    <Compile Include="Model\SatelliteInvariantSectorInfo.cs" />
+    <Compile Include="Model\SatellitePeridocityViewEvaluator.cs" />
+    <Compile Include="Model\SatelliteSystem.cs" />
+    <Compile Include="Model\SatelliteSystemInvariantSectorInfo.cs" />
+    <Compile Include="Model\SatelliteSystemPeriodicityViewEvaluator.cs" />
+    <Compile Include="Model\SatelliteSystemTimeShift.cs" />
+    <Compile Include="Model\SynthesisOrbitalStructureModel.cs" />
+    <Compile Include="OrbitalMath\OM.cs" />
+    <Compile Include="OrbitalMath\OMDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Constants.cs" />
+    <Compile Include="Resources\Symbols.cs" />
+    <Compile Include="ResultHandlers\ResultProcessors.cs" />
+    <Compile Include="ResultHandlers\ResultReceivers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Metrica\Visuals\GraphicWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

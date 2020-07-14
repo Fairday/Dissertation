@@ -1,0 +1,50 @@
+﻿<Window
+    x:Class="Dissertation.Algorithms.Metrica.Visuals.GraphicWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Dissertation.Algorithms.Metrica.Visuals"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:oxy="http://oxyplot.org/wpf"
+    x:Name="me"
+    Title="GraphicWindow"
+    Background="White"
+    mc:Ignorable="d">
+    <oxy:Plot
+        x:Name="PART_Oxyplot"
+        Title="{Binding GraphicTitle, ElementName=me}"
+        Padding="0,20,30,0"
+        Background="White"
+        ClipToBounds="True">
+        <oxy:Plot.Axes>
+            <oxy:LinearAxis
+                Title="{Binding AxisXTitle, ElementName=me}"
+                Angle="35"
+                AxislineColor="Black"
+                FontSize="15"
+                MajorGridlineColor="#80aaaaaa"
+                MajorGridlineStyle="Solid"
+                MajorGridlineThickness="1"
+                MinorGridlineColor="#30aaaaaa"
+                MinorGridlineStyle="Dot"
+                MinorGridlineThickness="1"
+                Position="Bottom"
+                TicklineColor="Black"
+                TitleFontWeight="Medium" />
+            <oxy:LinearAxis
+                Title="{Binding AxisYTitle, ElementName=me}"
+                Angle="35"
+                AxislineColor="Black"
+                FontSize="15"
+                MajorGridlineColor="#80aaaaaa"
+                MajorGridlineStyle="Solid"
+                MajorGridlineThickness="1"
+                MinorGridlineColor="#30aaaaaa"
+                MinorGridlineStyle="Dot"
+                MinorGridlineThickness="1"
+                Position="Left"
+                TicklineColor="Black"
+                TitleFontWeight="Medium" />
+        </oxy:Plot.Axes>
+    </oxy:Plot>
+</Window>
