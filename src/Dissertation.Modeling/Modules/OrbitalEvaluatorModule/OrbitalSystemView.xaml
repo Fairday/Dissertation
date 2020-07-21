@@ -270,6 +270,12 @@
                             ToolTip="Запустить массового анализа для произвольного положения">
                             <materialDesign:PackIcon Kind="SettingsBackupRestore" />
                         </Button>
+                        <Button
+                            Margin="2"
+                            Command="{Binding StartAnalysisTierCommand}"
+                            ToolTip="Запустить анализа яруса">
+                            <materialDesign:PackIcon Kind="SatelliteVariant" />
+                        </Button>
                     </ToolBar>
                 </ToolBarTray>
                 <TabControl>

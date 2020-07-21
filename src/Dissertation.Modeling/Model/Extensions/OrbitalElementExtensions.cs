@@ -21,7 +21,7 @@ namespace Dissertation.Modeling.Model.Extensions
             return satellite;
         }
 
-        public static Tier CreateTier(params Satellite[] satellites)
+        public static Tier CreateTier(this Satellite[] satellites)
         {
             var tier = new Tier(satellites);
             return tier;

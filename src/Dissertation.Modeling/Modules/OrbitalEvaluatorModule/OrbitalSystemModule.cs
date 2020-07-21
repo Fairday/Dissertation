@@ -50,6 +50,7 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         public ICommand StartBatchAnalyticCommand { get => Get(); set => Set(value); }
         public ICommand StopCommand { get => Get(); set => Set(value); }
         public ICommand ClosePreviewObservationStream { get => Get(); set => Set(value); }
+        public ICommand StartAnalysisTierCommand { get => Get(); set => Set(value); }
 
         public ObservableList<ObservationStreamViewModel> ObservationStreams { get => Get(); set => Set(value); }
         public ObservableList<ObservationMomentViewModel> FirstCoilObservationMoments { get => Get(); set => Set(value); }
@@ -130,6 +131,25 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
             {
                 SelectedObservationStream = null;
             });
+
+            StartAnalysisTierCommand = AsyncCommandCreator.Create(() =>
+            {
+                StartAnalysisTier();
+            });
+        }
+
+        void StartAnalysisTier()
+        {
+            var orbit = OrbitalElementExtensions.CreateOrbit(12, 1, 50);
+
+            var satellite1 = orbit.CreateSatellite(20, 0, 0);
+            var satellite2 = orbit.CreateSatellite(20, 40, 100);
+            var satellite3 = orbit.CreateSatellite(20, 60, 30);
+            //var satellite4 = orbit.CreateSatellite(20, 80, 120);
+
+            var tier = (new Satellite[] { satellite1, satellite2, satellite3, /*satellite4*/ }).CreateTier();
+            var task = new TierPeriodicityViewAnalyticBallisticTask(tier);
+            var taskResult = task.CalculateAnalytic(new Angle(EarchPointLatitude));
         }
 
         void StartAnalysisTiersByModelig()
@@ -392,12 +412,12 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                     phasePosition, earchLocation, out double timeoffset, out Angle longitude, out double ascNodeEquator);
 
                 //временный поток
-                var tempModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
-                            phasePosition, _MoveModelingAlgorithm, beamEquipment.Band);
-                var equatorModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
-                            new PhasePosition(ascNodeEquator, 0, true), _MoveModelingAlgorithm, beamEquipment.Band);
-                var lngModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, new EarchLocation(EarchPointLatitude, longitude.Grad),
-                            new PhasePosition(0, 0, true), _MoveModelingAlgorithm, beamEquipment.Band);
+                //var tempModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
+                //            phasePosition, _MoveModelingAlgorithm, beamEquipment.Band);
+                //var equatorModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
+                //            new PhasePosition(ascNodeEquator, 0, true), _MoveModelingAlgorithm, beamEquipment.Band);
+                //var lngModelingStream = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, new EarchLocation(EarchPointLatitude, longitude.Grad),
+                //            new PhasePosition(0, 0, true), _MoveModelingAlgorithm, beamEquipment.Band);
 
                 //Участок, в который попадает точка
                 var invariantSector = result.EntireInSector(longitude);

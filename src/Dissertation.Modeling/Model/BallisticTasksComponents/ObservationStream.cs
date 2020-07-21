@@ -104,21 +104,23 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
         /// </summary>
         /// <param name="observationStreams"></param>
         /// <returns></returns>
-        public static ObservationStream SummStreams(this ObservationStream[] observationStreams)
+        /// TODO: create it as merge sort (O(N * log(N))
+        public static ObservationStream SummStreams(this ICollection<ObservationStream> observationStreams)
         {
-            if (observationStreams == null || observationStreams.Length == 0)
+            if (observationStreams == null || observationStreams.Count == 0)
                 throw new ArgumentNullException(nameof(observationStreams));
 
-            if (observationStreams.Length == 1)
-                return observationStreams[0];
+            if (observationStreams.Count == 1)
+                return observationStreams.First();
 
             ObservationStream result = null;
-            for (int i = 0; i < observationStreams.Length; i++)
+
+            foreach (var os in observationStreams)
             {
                 if (result == null)
-                    result = observationStreams[i];
+                    result = os;
                 else
-                    result += observationStreams[i];
+                    result += os;
             }
             return result;
         }

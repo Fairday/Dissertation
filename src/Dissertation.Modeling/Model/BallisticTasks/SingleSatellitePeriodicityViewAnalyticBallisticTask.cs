@@ -127,6 +127,16 @@ namespace Dissertation.Modeling.Model.BallisticTasks
         public Angle Center => (Start + Stop) / 2;
         public Angle Stop { get; set; }
         public ObservationStream ObservationStream { get; }
+
+        public ObservationStreamsCompareResult Analytic_Modeling { get; set; }
+        public ObservationStreamsCompareResult Accuracy_Analytic_Modeling { get; set; }
+
+        public override string ToString()
+        {
+            var am = Analytic_Modeling != null ? Analytic_Modeling.HaveSimilarObservations.ToString() + " " + Analytic_Modeling.IsValid : "null";
+            var aam = Accuracy_Analytic_Modeling != null ? Accuracy_Analytic_Modeling.HaveSimilarObservations.ToString() + " " + Accuracy_Analytic_Modeling.IsValid : "null";
+            return $"Analytic_Modeling: {am}, Accuracy_Analytic_Modeling: {aam}";
+        }
     }
 
     /// <summary>
@@ -311,7 +321,6 @@ namespace Dissertation.Modeling.Model.BallisticTasks
             var L = phasePosition.LongitudeAscentNode.Rad + orbit.DeltaLongitudeAscent * timeToEquator;
             //Значение долготы восходящего узла в момент выхода на экватор
             var longitudeAscentNode = ascNodeEquator = L;
-            var x = longitudeAscentNode.ToGrad();
             //Долготная раздница между точкой и спутником
             var azimuth = earchLocation.Longitude.Rad - longitudeAscentNode;
             if (azimuth < 0)
@@ -328,6 +337,36 @@ namespace Dissertation.Modeling.Model.BallisticTasks
             var location = azimuth % orbit.DxNode;
             //Финальное временное смещение
             timeOffset = timeToEquator + intK * orbit.EraTurn;
+            longitude = new Angle(location, true);
+        }
+
+        /// <summary>
+        /// Данная функция рассчитывает параметры временного смещения, если спутник имеет ненулевое фазовое состояние. 
+        /// Также данный метод возращает значение долготы спутника, спроецированное на межузловое расстояние
+        /// </summary>
+        /// <param name="phasePosition"></param>
+        /// <param name="earchLocation"></param>
+        /// <param name="timeOffset"></param>
+        /// <param name="longitude"></param>
+        public void CalculateOffset(Orbit orbit, PhasePosition phasePosition, out double timeOffset, out Angle longitude, out double ascNodeEquator)
+        {
+            //Необходимо определить угловое расстояние, которое должен пройти спутник для выхода на экватор
+            var latitudeArgumentToEquator = phasePosition.LatitudeArgument.Grad != 0 ? 2 * Math.PI - phasePosition.LatitudeArgument.Rad : 0;
+            //Определение времени пролета
+            var timeToEquator = latitudeArgumentToEquator / orbit.DeltaLatitudeArgument;
+            //Изменение долготы восходящего узла
+            var L = phasePosition.LongitudeAscentNode.Rad + orbit.DeltaLongitudeAscent * timeToEquator;
+            //Значение долготы восходящего узла в момент выхода на экватор
+            var longitudeAscentNode = ascNodeEquator = L;
+            if (longitudeAscentNode < 0)
+            {
+                longitudeAscentNode += Math.PI * 2;
+                //azimuth = Math.Abs(azimuth);
+            }
+            //Проекция положения спутника на межузлове расстояние
+            var location = longitudeAscentNode % orbit.DxNode;
+            //Финальное временное смещение
+            timeOffset = timeToEquator;
             longitude = new Angle(location, true);
         }
 

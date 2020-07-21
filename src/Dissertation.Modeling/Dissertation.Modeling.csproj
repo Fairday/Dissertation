@@ -150,6 +150,7 @@
     <Compile Include="Model\BallisticTasksComponents\ObservationStream.cs" />
     <Compile Include="Model\BallisticTasks\OrbitalSystemPeriodicityViewAnalyticBallisticTask.cs" />
     <Compile Include="Model\BallisticTasks\SingleSatellitePeriodicityViewAnalyticBallisticTask.cs" />
+    <Compile Include="Model\BallisticTasks\TierPeriodicityViewAnalyticBallisticTask.cs" />
     <Compile Include="Model\Basics\Angle.cs" />
     <Compile Include="Model\Basics\Belt.cs" />
     <Compile Include="Model\EarchModel\EarchLocation.cs" />
