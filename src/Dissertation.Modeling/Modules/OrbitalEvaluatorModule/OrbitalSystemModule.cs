@@ -51,6 +51,7 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         public ICommand StopCommand { get => Get(); set => Set(value); }
         public ICommand ClosePreviewObservationStream { get => Get(); set => Set(value); }
         public ICommand StartAnalysisTierCommand { get => Get(); set => Set(value); }
+        public ICommand StartBatchAnalysisTierCommand { get => Get(); set => Set(value); }
 
         public ObservableList<ObservationStreamViewModel> ObservationStreams { get => Get(); set => Set(value); }
         public ObservableList<ObservationMomentViewModel> FirstCoilObservationMoments { get => Get(); set => Set(value); }
@@ -136,6 +137,11 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
             {
                 StartAnalysisTier();
             });
+
+            StartBatchAnalysisTierCommand = AsyncCommandCreator.CreateAsync((o) =>
+            {
+                return StartBatchAnalysisTier();
+            }, (o) => !Active);
         }
 
         void StartAnalysisTier()
@@ -145,11 +151,84 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
             var satellite1 = orbit.CreateSatellite(20, 0, 0);
             var satellite2 = orbit.CreateSatellite(20, 40, 100);
             var satellite3 = orbit.CreateSatellite(20, 60, 30);
-            //var satellite4 = orbit.CreateSatellite(20, 80, 120);
+            var satellite4 = orbit.CreateSatellite(20, 80, 120);
 
-            var tier = (new Satellite[] { satellite1, satellite2, satellite3, /*satellite4*/ }).CreateTier();
+            var tier = (new Satellite[] { satellite1, satellite2, satellite3, satellite4 }).CreateTier();
             var task = new TierPeriodicityViewAnalyticBallisticTask(tier);
             var taskResult = task.CalculateAnalytic(new Angle(EarchPointLatitude));
+        }
+
+        Task StartBatchAnalysisTier() 
+        {
+            return Task.Run(() =>
+            {
+                Active = true;
+
+                if (!Directory.Exists("results"))
+                    Directory.CreateDirectory("results");
+
+                var orbits = new Orbit[]
+                {
+                    OrbitalElementExtensions.CreateOrbit(2, 1, 5),
+                    OrbitalElementExtensions.CreateOrbit(3, 1, 15),
+                    OrbitalElementExtensions.CreateOrbit(4, 1, 45),
+                    OrbitalElementExtensions.CreateOrbit(8, 1, 90),
+                    OrbitalElementExtensions.CreateOrbit(9, 1, 180),
+                    OrbitalElementExtensions.CreateOrbit(12, 1, 0),
+                    OrbitalElementExtensions.CreateOrbit(14, 1, 70),
+                    OrbitalElementExtensions.CreateOrbit(15, 1, 115),
+                    OrbitalElementExtensions.CreateOrbit(27, 2, 15),
+                    OrbitalElementExtensions.CreateOrbit(29, 2, 140),
+                    OrbitalElementExtensions.CreateOrbit(63, 4, 60),
+                };
+
+                var directoryPath = Path.Combine("results", $"TierAnalysing_{DateTime.Now.ToString("yyyy_MM_dd_hh_mm")}");
+                if (!Directory.Exists(directoryPath))
+                    Directory.CreateDirectory(directoryPath);
+                var output = new StreamWriter($"{directoryPath}/results.txt")
+                {
+                    AutoFlush = true,
+                };
+
+                var rnd = new Random();
+
+                foreach (var orbit in orbits)
+                {
+                    output.WriteLine("***************************");
+                    output.WriteLine(FormatOutput($"m={orbit.NCoil}", $"n={orbit.NDay}", $"i={orbit.InputOrbitParameters.Inclination}", $"band=20"));
+                    for (int i = 2; i <= 4; i++)
+                    {
+                        var satellites = new Satellite[i];
+                        int j = 0;
+                        while (j < i) 
+                            satellites[j++] = orbit.CreateSatellite(20, rnd.Next(10, 180), rnd.Next(10, 180));
+                        var tier = satellites.CreateTier();
+                        var task = new TierPeriodicityViewAnalyticBallisticTask(tier);
+
+                        for (int fi = 0; fi <= 90; fi += 30) 
+                        {
+                            output.WriteLine("////////////////////");
+                            output.WriteLine("Количество спутников:" + satellites.Length);
+                            foreach (var s in satellites)
+                                output.WriteLine($"Фазовое положение: {s.PhasePosition.LongitudeAscentNode.Grad}, {s.PhasePosition.LatitudeArgument.Grad}");
+                            var taskResult = task.CalculateAnalytic(new Angle(fi));
+                            if (taskResult == null) 
+                            {
+                                output.WriteLine("No observation");
+                                continue;
+                            }
+                            foreach (var invariantSector in taskResult.InvariantSectors)
+                            {
+                                output.WriteLine(FormatOutput(($"length={invariantSector.Length.Grad}, amValid={invariantSector.Analytic_Modeling.IsValid}, aamValid={invariantSector.Accuracy_Analytic_Modeling.IsValid}, amo={invariantSector.Analytic_Modeling.HaveSimilarObservations}," +
+                                    $" ame={invariantSector.Analytic_Modeling.MaximumRealTimeError}, aamo={invariantSector.Accuracy_Analytic_Modeling.HaveSimilarObservations}, aame={invariantSector.Accuracy_Analytic_Modeling.MaximumRealTimeError}, ve={invariantSector.Accuracy_Analytic_Modeling.MaximumValidTimeError}")));
+                            }
+                        }
+
+                    }
+                }
+
+                Active = false;
+            });
         }
 
         void StartAnalysisTiersByModelig()

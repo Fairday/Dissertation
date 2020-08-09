@@ -9,9 +9,9 @@
     xmlns:local="clr-namespace:Dissertation.Modeling.Modules.OrbitalEvaluatorModule"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:viewmodel="clr-namespace:Dissertation.Modeling.ViewModel"
-    xmlns:ui="clr-namespace:Dissertation.Modeling.UI"
     xmlns:orbitalModel="clr-namespace:Dissertation.Modeling.Model.OrbitalModel"
+    xmlns:ui="clr-namespace:Dissertation.Modeling.UI"
+    xmlns:viewmodel="clr-namespace:Dissertation.Modeling.ViewModel"
     mc:Ignorable="d">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -274,7 +274,22 @@
                             Margin="2"
                             Command="{Binding StartAnalysisTierCommand}"
                             ToolTip="Запустить анализа яруса">
-                            <materialDesign:PackIcon Kind="SatelliteVariant" />
+                            <Grid>
+                                <materialDesign:PackIcon Kind="SatelliteVariant" />
+                                <materialDesign:PackIcon Margin="15,0,0,0" Kind="SatelliteVariant" />
+                            </Grid>
+                        </Button>
+                        <Button
+                            Margin="2"
+                            Command="{Binding StartBatchAnalysisTierCommand}"
+                            ToolTip="Запустить массовый анализ ярусов">
+                            <DockPanel>
+                                <materialDesign:PackIcon Kind="PlaylistAdd" />
+                                <Grid>
+                                    <materialDesign:PackIcon Kind="SatelliteVariant" />
+                                    <materialDesign:PackIcon Margin="15,0,0,0" Kind="SatelliteVariant" />
+                                </Grid>
+                            </DockPanel>
                         </Button>
                     </ToolBar>
                 </ToolBarTray>
@@ -378,7 +393,7 @@
                                         VirtualizingPanel.IsVirtualizing="True">
                                         <i:Interaction.Behaviors>
                                             <behaviors:AutoScroller AutoScrollEnabled="True" />
-                                            <behaviors:ScrollParentBehavior/>
+                                            <behaviors:ScrollParentBehavior />
                                         </i:Interaction.Behaviors>
                                         <ListView.ItemTemplate>
                                             <DataTemplate DataType="{x:Type viewmodel:ObservationStreamViewModel}">
@@ -442,8 +457,8 @@
                                                 <TextBlock
                                                     Margin="5"
                                                     FontSize="15"
-                                                    Text="{Binding StringFormat=Долгота: {0:0.######}, Path=EarchLocation.Longitude.Grad}"
-                                                    FontWeight="Medium"/>
+                                                    FontWeight="Medium"
+                                                    Text="{Binding StringFormat=Долгота: {0:0.######}, Path=EarchLocation.Longitude.Grad}" />
                                             </DockPanel>
                                             <DockPanel DockPanel.Dock="Top">
                                                 <TextBlock

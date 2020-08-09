@@ -47,6 +47,9 @@ namespace Dissertation.Modeling.Model.BallisticTasks
             //Результат расчет базовых участков инвариантности для параметров орбиты яруса
             var latitudePeriodicityViewResult = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateAnalytic(latitude);
 
+            if (latitudePeriodicityViewResult.LatitudeType == LatitudeType.None)
+                return null;
+
             var borders = new List<double>();
 
             foreach (var invariantSector in latitudePeriodicityViewResult.InvariantSectors)
