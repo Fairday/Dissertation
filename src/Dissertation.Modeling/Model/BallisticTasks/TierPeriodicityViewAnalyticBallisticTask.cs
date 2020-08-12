@@ -44,7 +44,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
         public PeriodicityViewResult CalculateAnalytic(Angle latitude) 
         {
             var singleSatellitePeriodicityViewAnalyticBallisticTask = new SingleSatellitePeriodicityViewAnalyticBallisticTask(_Tier.Satellites[0]);
-            //Результат расчет базовых участков инвариантности для параметров орбиты яруса
+            //Результат расчета базовых участков инвариантности для параметров орбиты яруса
             var latitudePeriodicityViewResult = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateAnalytic(latitude);
 
             if (latitudePeriodicityViewResult.LatitudeType == LatitudeType.None)
@@ -57,7 +57,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
 
             foreach (var satellite in _Tier.Satellites)
             {
-                singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
+                SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
                     satellite.PhasePosition, out double timeoffet, out Angle longitude, out double asc);
 
                 if (longitude != 0)
@@ -93,7 +93,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
 
                 foreach (var satellite in _Tier.Satellites)
                 {
-                    singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
+                    SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
                         satellite.PhasePosition, el, out double timeoffset, out Angle longitude, out double anq);
                     var invariantSector = latitudePeriodicityViewResult.EntireInSector(longitude);
                     //Аналитика
@@ -111,9 +111,9 @@ namespace Dissertation.Modeling.Model.BallisticTasks
                     modeling_OS.Add(modeling);
                 }
 
-                var merged_analytic = analytic_OS.SummStreams();
-                var merged_accuracy_analytic = accuracy_analytic_OS.SummStreams();
-                var mrged_modeling = modeling_OS.SummStreams();
+                var merged_analytic = analytic_OS.SummAndSortStreams();
+                var merged_accuracy_analytic = accuracy_analytic_OS.SummAndSortStreams();
+                var mrged_modeling = modeling_OS.SummAndSortStreams();
 
                 var compareResult_Analytic = ObservationStreamExtensions.CompareStreams(_Tier.Orbit, merged_analytic, mrged_modeling, _Tier.Orbit.EraTurn / 4);
                 var compareResult_Accuracy_Analytic = ObservationStreamExtensions.CompareStreams(_Tier.Orbit, merged_accuracy_analytic, mrged_modeling, _Tier.Orbit.EraTurn / 4);

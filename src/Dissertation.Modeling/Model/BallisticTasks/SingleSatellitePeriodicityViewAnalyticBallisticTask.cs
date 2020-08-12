@@ -311,7 +311,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
         /// <param name="earchLocation"></param>
         /// <param name="timeOffset"></param>
         /// <param name="longitude"></param>
-        public void CalculateOffset(Orbit orbit, PhasePosition phasePosition, EarchLocation earchLocation, out double timeOffset, out Angle longitude, out double ascNodeEquator)
+        public static void CalculateOffset(Orbit orbit, PhasePosition phasePosition, EarchLocation earchLocation, out double timeOffset, out Angle longitude, out double ascNodeEquator)
         {
             //Необходимо определить угловое расстояние, которое должен пройти спутник для выхода на экватор
             var latitudeArgumentToEquator = phasePosition.LatitudeArgument.Grad != 0 ? 2 * Math.PI - phasePosition.LatitudeArgument.Rad : 0;
@@ -348,7 +348,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
         /// <param name="earchLocation"></param>
         /// <param name="timeOffset"></param>
         /// <param name="longitude"></param>
-        public void CalculateOffset(Orbit orbit, PhasePosition phasePosition, out double timeOffset, out Angle longitude, out double ascNodeEquator)
+        public static void CalculateOffset(Orbit orbit, PhasePosition phasePosition, out double timeOffset, out Angle longitude, out double ascNodeEquator)
         {
             //Необходимо определить угловое расстояние, которое должен пройти спутник для выхода на экватор
             var latitudeArgumentToEquator = phasePosition.LatitudeArgument.Grad != 0 ? 2 * Math.PI - phasePosition.LatitudeArgument.Rad : 0;

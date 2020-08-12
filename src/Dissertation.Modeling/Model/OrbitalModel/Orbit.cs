@@ -61,6 +61,10 @@ namespace Dissertation.Modeling.Model.OrbitalModel
         /// </summary>
         public RangeNormalizer ModEraTier { get => Get(); private set => Set(value); }
         /// <summary>
+        /// Создает нормализатор времемени по величине периода повторяемости трассы
+        /// </summary>
+        public static RangeNormalizer ModEraTierBuilder(double eraTier) => new RangeNormalizer(eraTier);
+        /// <summary>
         /// Угловая скорость изменения восходящего узла спутника    
         /// </summary>
         public double DeltaLongitudeAscent { get => Get(); private set => Set(value); }

@@ -234,24 +234,25 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         void StartAnalysisTiersByModelig()
         {
             var orbit1 = OrbitalElementExtensions.CreateOrbit(16, 1, 50);
-            var orbit2 = OrbitalElementExtensions.CreateOrbit(2, 1, 30);
-            var orbit3 = OrbitalElementExtensions.CreateOrbit(13, 1, 60);
-            var orbit4 = OrbitalElementExtensions.CreateOrbit(8, 3, 70);
+            var orbit2 = OrbitalElementExtensions.CreateOrbit(8, 2, 15);
+            //var orbit3 = OrbitalElementExtensions.CreateOrbit(13, 1, 60);
+            //var orbit4 = OrbitalElementExtensions.CreateOrbit(8, 3, 70);
 
-            var satellite1 = orbit1.CreateSatellite(10);
-            var satellite2 = orbit2.CreateSatellite(15);
-            var satellite3 = orbit3.CreateSatellite(12);
-            var satellite4 = orbit4.CreateSatellite(8);
+            var satellite1 = orbit1.CreateSatellite(20, 40, 20);
+            var satellite2 = orbit2.CreateSatellite(20, 60, 120);
+            //var satellite3 = orbit3.CreateSatellite(12);
+            //var satellite4 = orbit4.CreateSatellite(8);
 
             var tier1 = satellite1.CreateTier();
             var tier2 = satellite2.CreateTier();
-            var tier3 = satellite3.CreateTier();
-            var tier4 = satellite4.CreateTier();
+            //var tier3 = satellite3.CreateTier();
+            //var tier4 = satellite4.CreateTier();
 
-            var orbitalSystem = new OrbitalSystem(tier1, tier2, tier3, tier4);
+            var orbitalSystem = new OrbitalSystem(tier1, tier2);
 
             var task = new OrbitalSystemPeriodicityViewAnalyticBallisticTask(orbitalSystem);
-            var taskResult = task.SolveWithModeling(new Angle(1), new Angle(0));
+            task.SolveAnalytic(new Angle(30));
+            //var taskResult = task.SolveModeling(new Angle(1), new Angle(0));
         }
 
        Task StartAnalytic()
@@ -380,7 +381,7 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                                                     try
                                                     {
                                                         var earchLocation = new EarchLocation(latitude, new Angle(longt));
-                                                        singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(orbit,
+                                                        SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(orbit,
                                                             phasePosition, earchLocation, out double timeoffset, out Angle longitude, out double anq);
                                                         ////Участок, в который попадает точка
                                                         var invariantSector = result.EntireInSector(longitude);
@@ -487,7 +488,7 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                 var result = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateAnalytic(latitude);
 
                 var earchLocation = new EarchLocation(EarchPointLatitude, StartEarchPointLongitude);
-                singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(Orbit,
+                SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(Orbit,
                     phasePosition, earchLocation, out double timeoffset, out Angle longitude, out double ascNodeEquator);
 
                 //временный поток

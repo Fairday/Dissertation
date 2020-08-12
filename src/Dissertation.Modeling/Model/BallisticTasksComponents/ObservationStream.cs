@@ -100,12 +100,27 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
             return new ObservationStreamsCompareResult(orbit, observationStream1, observationStream2, maximumValidTimeError);
         }
         /// <summary>
+        /// Сравнение двух потоков
+        /// </summary>
+        /// <param name="eraTier"></param>
+        /// <param name="observationStream1"></param>
+        /// <param name="observationStream2"></param>
+        /// <param name="maximumValidTimeError"></param>
+        /// <returns></returns>
+        public static ObservationStreamsCompareResult CompareStreams(
+            double eraTier,
+            ObservationStream observationStream1,
+            ObservationStream observationStream2,
+            double maximumValidTimeError)
+        {
+            return new ObservationStreamsCompareResult(eraTier, observationStream1, observationStream2, maximumValidTimeError);
+        }
+        /// <summary>
         /// Объединение потоков
         /// </summary>
         /// <param name="observationStreams"></param>
         /// <returns></returns>
-        /// TODO: create it as merge sort (O(N * log(N))
-        public static ObservationStream SummStreams(this ICollection<ObservationStream> observationStreams)
+        public static ObservationStream SummAndSortStreams(this ICollection<ObservationStream> observationStreams)
         {
             if (observationStreams == null || observationStreams.Count == 0)
                 throw new ArgumentNullException(nameof(observationStreams));
@@ -123,6 +138,15 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
                     result += os;
             }
             return result;
+        }
+        /// <summary>
+        /// Объединение потоков
+        /// </summary>
+        /// <param name="observationStreams"></param>
+        /// <returns></returns>
+        public static ObservationStream MergeStreams(this ICollection<ObservationStream> observationStreams)
+        {
+            throw new NotImplementedException();
         }
     }
 
@@ -167,6 +191,38 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
                     ModelingMore = true;
             }
         }
+
+        public ObservationStreamsCompareResult(
+            double eraTier,
+            ObservationStream observationStream1,
+            ObservationStream observationStream2,
+            double maximumValidTimeError)
+        {
+            MaximumValidTimeError = maximumValidTimeError;
+            if (observationStream1.ObservationMoments.Count == observationStream2.ObservationMoments.Count)
+            {
+                HaveSimilarObservations = true;
+                for (int i = 0; i < observationStream1.ObservationMoments.Count; i++)
+                {
+                    var obm1 = observationStream1.ObservationMoments[i];
+                    var obm2 = observationStream2.ObservationMoments[i];
+                    var delta = Math.Min(Math.Abs(obm1 - obm2), Math.Abs(Orbit.ModEraTierBuilder(eraTier).Normalize(Math.Abs(obm1.T + obm2.T - eraTier))));
+                    if (delta > MaximumRealTimeError)
+                    {
+                        MaximumRealTimeError = delta;
+                        MaximumErrorAnalytic = obm1;
+                    }
+                }
+                IsValid = HaveSimilarObservations && MaximumRealTimeError <= MaximumValidTimeError;
+            }
+            else
+            {
+                if (observationStream1.ObservationMoments.Count > observationStream2.ObservationMoments.Count)
+                    AnalyticMore = true;
+                else
+                    ModelingMore = true;
+            }
+        }
     }
 
     public class ObservationStream
@@ -186,9 +242,14 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
         }
 
         public IReadOnlyList<ObservationMoment> ObservationMoments { get; private set; }
-        public double EraTier { get; }
+        public double EraTier { get; private set; }
         public int Count => ObservationMoments.Count;
         public double Periodicity { get; }
+
+        public void Extend(double newEraTier) 
+        {
+            EraTier = newEraTier;
+        }
 
         public static ObservationStream operator +(ObservationStream observationStream, double timeOffset)
         {
