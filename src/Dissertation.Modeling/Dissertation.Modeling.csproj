@@ -157,6 +157,7 @@
     <Compile Include="Algorithms\HalfSizingAlgorithm.cs" />
     <Compile Include="Algorithms\MoveModelingAlgorithm.cs" />
     <Compile Include="Algorithms\PeriodicityViewEvaluator.cs" />
+    <Compile Include="Algorithms\SynchroNodalParametersCalculator.cs" />
     <Compile Include="Helpers\BoundedTaskScheduler.cs" />
     <Compile Include="Helpers\FullRangeNormalizer.cs" />
     <Compile Include="Helpers\MathConstants.cs" />
@@ -178,7 +179,6 @@
     <Compile Include="Model\Extensions\OrbitalElementExtensions.cs" />
     <Compile Include="Model\OrbitalModel\DayCoilPair.cs" />
     <Compile Include="Model\OrbitalModel\InputOrbitParameters.cs" />
-    <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="ViewModels\ObservationMomentViewModel.cs" />
     <Compile Include="ViewModels\ObservationStreamViewModel.cs" />
     <Compile Include="Model\OrbitalSystem\OrbitalSystem.cs" />
