@@ -256,7 +256,7 @@ namespace Dissertation.Modeling.Model.BallisticTasksComponents
             var observationStreamAfterTwist = new ObservationStream(observationStream.ObservationMoments.Select(om => new ObservationMoment(om.T)), observationStream.EraTier);
             foreach (var observationMoment in observationStreamAfterTwist.ObservationMoments)
                 observationMoment.Move(timeOffset, observationStreamAfterTwist.EraTier);
-            //TODO: implement smart sort
+            //TODO: implement merge sort
             observationStreamAfterTwist.Sort();
             return observationStreamAfterTwist;
         }

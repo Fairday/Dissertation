@@ -1,0 +1,11 @@
+Upper, m=2, n=1, i=10,fi=11, band=10,5, obserAnalytic=0, observModel=1, long=0,005806
+Upper, m=2, n=1, i=13,fi=63, band=56,5, obserAnalytic=0, observModel=1, long=0,008711
+Lower, m=2, n=1, i=63,fi=0,band=59, obserAnalytic=2, observModel=0, long=45 (исправлено)
+Pole,m=2, n=1, i=42,fi=90, band=48,5, observCount=False, obserAnalytic=2, observModel=3, long=90 (исправлено)
+Lower, m=2, n=1, i=91,fi=0,band=0,5, observCount=False, obserAnalytic=1, observModel=2 (исправлено)
+Lower, m=2, n=1, i=94,fi=46, band=35,5, observCount=False, obserAnalytic=1, observModel=2, long=80.395304, 
+m=2, n=1, i=91,fi=30, band=59, long = {43, 44, 45} (исправлено)
+
+
+
+Lower, m=2, n=1, i=91,fi=0,band=0,5, observCount=False, obserAnalytic=1, observModel=1 long=0.2521466

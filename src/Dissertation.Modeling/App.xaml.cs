@@ -4,6 +4,7 @@ using ATS.WPF.Shell.Screens;
 using ATS.WPF.Shell.Shells;
 using ATS.WPF.Shell.UI.AvalonMenuControl;
 using Dissertation.Algorithms.Algorithms.Helpers;
+using Dissertation.Modeling.Model.BallisticTasksComponents;
 using Dissertation.Modeling.Modules.OrbitalEvaluatorModule;
 using System;
 using System.Windows;

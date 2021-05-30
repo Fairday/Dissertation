@@ -142,15 +142,15 @@ namespace Dissertation.Modeling.Model.BallisticTasks
                     {
                         SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
                             satellite.PhasePosition, el, out double timeoffset, out Angle longitude, out double anq);
-                        var k = longitude.Grad / satellite.Orbit.DxTurnGrad;
-                        var projection = longitude.Grad % satellite.Orbit.DxTurnGrad;
-                        var invariantSector = tierBasicInvariantAreas.EntireInSector(new Angle(projection));
+                        var k = analysingLongitude.Grad / satellite.Orbit.DxTurnGrad; //?? //longitude.Grad / satellite.Orbit.DxTurnGrad;
+                        //var projection = longitude.Grad % satellite.Orbit.DxTurnGrad;
+                        var invariantSector = tierBasicInvariantAreas.EntireInSector(longitude/*new Angle(projection)*/);
                         //Аналитический поток
                         var analytic = invariantSector.ObservationStream;
                         //Рассчитываем растянутый аналитический поток в соответствии со значением периода повторяемости трасссы системы
                         //Изменяем период повторяемости трассы у потока
                         analytic.Extend(systemPeriodicity);
-                        //Растягиваем поток
+                        //Растягиваем поток ?? почему теряются наблюдения?
                         var extendedAnalytic = analytic + k * satellite.Orbit.EraTier;
                         var shiftedAnalytic = extendedAnalytic + timeoffset;
                         analyticStreams.Add(shiftedAnalytic);
