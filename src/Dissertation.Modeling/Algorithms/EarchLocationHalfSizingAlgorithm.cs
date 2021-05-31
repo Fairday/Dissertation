@@ -28,11 +28,11 @@ namespace Dissertation.Modeling.Algorithms
         public override double Caclulate(double value)
         {
             var phasePosition = _MoveModelingAlgorithm.Move(_StartSatellitePosition, value);
-            var currentsatelliteSpeendOnEarchPoint = CoordinateSystemConverter.ProjectSatelliteSpeed(
+            var currentsatelliteSpeedOnEarchPoint = CoordinateSystemConverter.ProjectSatelliteSpeed(
                 _Inclination,
                 phasePosition.LongitudeAscentNode,
                 phasePosition.LatitudeArgument);
-            var output = CoordinateSystemConverter.CosBy(_EarchPointTrace.Location, currentsatelliteSpeendOnEarchPoint);
+            var output = CoordinateSystemConverter.CosBy(_EarchPointTrace.Location, currentsatelliteSpeedOnEarchPoint);
             if (System.Math.Abs(output) < Dissertation.Modeling.Model.AccuracyModel.AngleAccuracyRad)
                 return 0;
             return output;

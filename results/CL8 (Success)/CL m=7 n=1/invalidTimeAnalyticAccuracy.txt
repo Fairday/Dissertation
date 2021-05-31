@@ -1,0 +1,24 @@
+Lower,     m=7, n=1, i=120,     fi=10,     band=25,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=3,     observModel=3,     long=20,     error=42599,0397079778,     limit=3086,85894737649,     length=14,3770248374058,     
+---------------
+Lower,     m=7, n=1, i=120,     fi=10,     band=30,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=3,     observModel=3,     long=20,     error=42513,9975352866,     limit=3086,85894737649,     length=18,7330587914554,     
+---------------
+Lower,     m=7, n=1, i=120,     fi=10,     band=45,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=5,     observModel=5,     long=20,     error=31022,070459483,     limit=3086,85894737649,     length=22,7677905435415,     
+---------------
+Upper,     m=7, n=1, i=120,     fi=20,     band=45,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=6,     observModel=6,     long=40,     error=30265,8757425236,     limit=3086,85894737649,     length=32,530937704073,     
+---------------
+Upper,     m=7, n=1, i=120,     fi=20,     band=50,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=6,     observModel=6,     long=40,     error=30265,8757425236,     limit=3086,85894737649,     length=45,0034882005905,     
+---------------
+Upper,     m=7, n=1, i=120,     fi=20,     band=55,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=6,     observModel=6,     long=40,     error=30265,8757425236,     limit=3086,85894737649,     length=45,1908837055994,     
+---------------
+Upper,     m=7, n=1, i=140,     fi=20,     band=30,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=5,     observModel=5,     long=20,     error=42264,3347110678,     limit=3089,68935022821,     length=24,6432267724164,     
+---------------
+Upper,     m=7, n=1, i=140,     fi=20,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=7,     observModel=7,     long=20,     error=20192,804863113,     limit=3089,68935022821,     length=24,5878197989415,     
+---------------
+Upper,     m=7, n=1, i=140,     fi=30,     band=50,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=6,     observModel=6,     long=40,     error=30425,4914665623,     limit=3089,68935022821,     length=40,7966204112498,     
+---------------
+Upper,     m=7, n=1, i=140,     fi=30,     band=55,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=6,     observModel=6,     long=40,     error=30425,4914665623,     limit=3089,68935022821,     length=43,4249212000608,     
+---------------
+Upper,     m=7, n=1, i=160,     fi=30,     band=35,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=5,     observModel=5,     long=20,     error=42385,0522463493,     limit=3091,53099716722,     length=23,2860827061686,     
+---------------
+Upper,     m=7, n=1, i=160,     fi=40,     band=45,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=5,     observModel=5,     long=20,     error=42129,3980678955,     limit=3091,53099716722,     length=25,536197735584,     
+---------------

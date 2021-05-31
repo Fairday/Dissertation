@@ -11,18 +11,19 @@ namespace Dissertation.Modeling.Model.SatelliteModel
         private readonly Orbit _Orbit;
         private readonly MoveModelingAlgorithm _MoveModelingAlgorithm;
         private readonly PhasePosition _StartPosition;
+        private readonly double _AverageEarthRadius;
 
         public SatelliteTrace(Orbit orbit, PhasePosition phasePosition)
         {
             _Orbit = orbit;
             _MoveModelingAlgorithm = new MoveModelingAlgorithm(orbit);
             _StartPosition = phasePosition;
+
+            _AverageEarthRadius = Guess.EarchRadius(_Orbit.InputOrbitParameters.InclinationAngle);
         }
 
         public void Calculate(double time)
         {
-            var averageEarthRadius = Guess.EarchRadius(_Orbit.InputOrbitParameters.InclinationAngle);
-
             //Проекция подспутниковой точки (используется единичный вектор координат) -> (широта, долгота)
             LocationByCoord = CoordinateSystemConverter.ProjectSatellitePoint(
                 _Orbit.InputOrbitParameters.InclinationAngle,
@@ -37,7 +38,7 @@ namespace Dissertation.Modeling.Model.SatelliteModel
 
             //Географические координаты спутника
             PointXYZ = CoordinateSystemConverter.Calculate(
-                averageEarthRadius,
+                _AverageEarthRadius,
                 LocationByCoord.Latitude,
                 LocationByCoord.Longitude,
                 time, 

@@ -2,6 +2,9 @@
 
 namespace Dissertation.Modeling.Model.SatelliteModel
 {
+    /// <summary>
+    /// Фазовое положение на орбите
+    /// </summary>
     public struct PhasePosition
     {
         public PhasePosition(Angle longitudeAscentNode, Angle latitudeArgument)
@@ -25,6 +28,7 @@ namespace Dissertation.Modeling.Model.SatelliteModel
         public static PhasePosition Default => new PhasePosition(0, 0);
         public Angle LongitudeAscentNode { get; }
         public Angle LatitudeArgument { get; }
+
         public bool IsZero()
         {
             return LongitudeAscentNode.Grad == 0 && LatitudeArgument.Grad == 0;

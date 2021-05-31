@@ -14,6 +14,12 @@ namespace Dissertation.Modeling.Algorithms
             _Orbit = orbit;
         }
 
+        /// <summary>
+        /// Расчет фазового положения на орбите в момент времени dt с учетом 
+        /// </summary>
+        /// <param name="currentPosition"></param>
+        /// <param name="dt"></param>
+        /// <returns></returns>
         public PhasePosition Move(PhasePosition currentPosition, double dt)
         {
             var newL = currentPosition.LongitudeAscentNode.Rad + _Orbit.DeltaLongitudeAscent * dt;

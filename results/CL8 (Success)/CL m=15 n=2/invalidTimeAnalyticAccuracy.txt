@@ -1,0 +1,18 @@
+Upper,     m=15,n=2, i=120,     fi=10,     band=50,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=13,     observModel=13,     long=20,     error=29162,7711744767,     limit=2881,93714074468,     length=15,5924456339871,     
+---------------
+Upper,     m=15,n=2, i=120,     fi=20,     band=45,5,     ascNode=0,     latArg=0,     longt=40,     obserAnalytic=12,     observModel=12,     long=16,     error=28644,8571321927,     limit=2881,93714074468,     length=17,9421877519126,     
+---------------
+Upper,     m=15,n=2, i=140,     fi=20,     band=30,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=11,     observModel=11,     long=20,     error=39833,326013698,     limit=2885,03675608552,     length=12,6685610726626,     
+---------------
+Upper,     m=15,n=2, i=140,     fi=20,     band=35,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=11,     observModel=11,     long=20,     error=39810,9627527103,     limit=2885,03675608552,     length=14,6810219146146,     
+---------------
+Upper,     m=15,n=2, i=140,     fi=20,     band=45,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=13,     observModel=13,     long=20,     error=29342,9756129273,     limit=2885,03675608552,     length=15,9712706334752,     
+---------------
+Upper,     m=15,n=2, i=140,     fi=20,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=15,     observModel=15,     long=20,     error=19102,671122413,     limit=2885,03675608552,     length=15,5867481684191,     
+---------------
+Equator,     m=15,n=2, i=160,     fi=30,     band=50,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=17,     observModel=17,     long=20,     error=10146,9090382809,     limit=2887,05265920989,     length=24,     
+---------------
+Equator,     m=15,n=2, i=160,     fi=30,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=17,     observModel=17,     long=20,     error=10146,9090382809,     limit=2887,05265920989,     length=24,     
+---------------
+Upper,     m=15,n=2, i=160,     fi=40,     band=45,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=11,     observModel=11,     long=20,     error=39744,7054111247,     limit=2887,05265920989,     length=13,5611516350119,     
+---------------

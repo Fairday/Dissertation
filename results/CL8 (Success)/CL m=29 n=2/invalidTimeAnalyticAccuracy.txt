@@ -1,0 +1,6 @@
+Upper,     m=29,n=2, i=140,     fi=20,     band=50,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=25,     observModel=25,     long=7,586207,     error=21870,2418904384,     limit=1508,86654324986,     length=8,06454486448688,     
+---------------
+Upper,     m=29,n=2, i=140,     fi=20,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=27,     observModel=27,     long=7,586207,     error=16262,4828367918,     limit=1508,86654324986,     length=8,438534190025,     
+---------------
+Upper,     m=29,n=2, i=160,     fi=40,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=25,     observModel=25,     long=7,586207,     error=22068,3000428337,     limit=1513,55073940115,     length=8,0669017779307,     
+---------------

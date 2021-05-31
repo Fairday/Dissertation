@@ -203,9 +203,12 @@ namespace Dissertation.Modeling.Model.BallisticTasks
             if (eraTier == 0)
                 eraTier = orbit.EraTier;
 
+            //начальное фазовое положение спутника
             var startSatellitePosition = phasePosition;
+            //наклонение орбиты
             Angle inclination = orbit.InputOrbitParameters.InclinationAngle;
 
+            //Создаем объект трассы определения положения точки на поверхности Земли с учетом вращения Земли
             var earchPointTrace = new EarchPointTrace(inclination, earchLocation);
             var satelliteTrace = new SatelliteTrace(orbit, startSatellitePosition);
             var earchLocationHalfSizingAlgorithm = new EarchLocationHalfSizingAlgorithm(

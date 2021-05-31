@@ -1,0 +1,10 @@
+Lower,     m=27,n=2, i=120,     fi=10,     band=35,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=14,     observModel=14,     long=6,666667,     error=35389,3753340859,     limit=1610,54380542369,     length=7,83589534172362,     
+---------------
+Upper,     m=27,n=2, i=120,     fi=10,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=24,     observModel=24,     long=6,666667,     error=23020,7301787337,     limit=1610,54380542369,     length=8,59301849577635,     
+---------------
+Upper,     m=27,n=2, i=140,     fi=20,     band=50,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=24,     observModel=24,     long=6,666667,     error=23322,0836672285,     limit=1617,1881706128,     length=6,90030012301259,     
+---------------
+Upper,     m=27,n=2, i=160,     fi=40,     band=45,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=18,     observModel=18,     long=6,666667,     error=35612,2605281851,     limit=1621,47532754174,     length=8,10889139744774,     
+---------------
+Upper,     m=27,n=2, i=160,     fi=40,     band=55,5,     ascNode=0,     latArg=0,     longt=20,     obserAnalytic=24,     observModel=24,     long=6,666667,     error=23513,2231388548,     limit=1621,47532754174,     length=6,88745626284942,     
+---------------

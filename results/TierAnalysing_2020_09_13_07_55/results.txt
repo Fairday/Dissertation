@@ -1,0 +1,459 @@
+***************************
+m=2, n=1, i=5, band=20,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 105, 41
+Фазовое положение: 40, 39
+length=59,5, amValid=False, aamValid=False, amo=True, ame=26681,6516707154, aamo=True, aame=14460,5863027335, ve=10783,2929717488,     
+length=66, amValid=False, aamValid=False, amo=True, ame=35005,3423261583, aamo=True, aame=13678,4216798091, ve=10783,2929717488,     
+length=54,5, amValid=False, aamValid=False, amo=True, ame=12994,0632850821, aamo=True, aame=15061,4497921973, ve=10783,2929717488,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 105, 41
+Фазовое положение: 40, 39
+No observation
+////////////////////
+Количество спутников:2
+Фазовое положение: 105, 41
+Фазовое положение: 40, 39
+No observation
+////////////////////
+Количество спутников:2
+Фазовое положение: 105, 41
+Фазовое положение: 40, 39
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 127, 149
+Фазовое положение: 19, 167
+Фазовое положение: 149, 113
+length=21,5, amValid=False, aamValid=False, amo=True, ame=28452,7345586972, aamo=True, aame=19008,3985763615, ve=10783,2929717488,     
+length=3,99999999999999, amValid=False, aamValid=False, amo=True, ame=25418,7816304429, aamo=True, aame=17728,8697759234, ve=10783,2929717488,     
+length=77, amValid=False, aamValid=True, amo=True, ame=13527,5714143596, aamo=True, aame=6115,07764423806, ve=10783,2929717488,     
+length=77,5, amValid=True, aamValid=False, amo=True, ame=9274,41004704793, aamo=True, aame=30755,270654268, ve=10783,2929717488,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 127, 149
+Фазовое положение: 19, 167
+Фазовое положение: 149, 113
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 127, 149
+Фазовое положение: 19, 167
+Фазовое положение: 149, 113
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 127, 149
+Фазовое положение: 19, 167
+Фазовое положение: 149, 113
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 169, 80
+Фазовое положение: 33, 130
+Фазовое положение: 122, 48
+Фазовое положение: 28, 58
+length=29, amValid=True, aamValid=False, amo=True, ame=7543,79302797563, aamo=True, aame=18114,0798378628, ve=10783,2929717488,     
+length=28, amValid=False, aamValid=False, amo=True, ame=27099,6490685644, aamo=True, aame=17035,2422949322, ve=10783,2929717488,     
+length=41, amValid=False, aamValid=False, amo=True, ame=16919,7242506151, aamo=True, aame=26472,5615606838, ve=10783,2929717488,     
+length=48, amValid=False, aamValid=False, amo=True, ame=24895,5225144981, aamo=True, aame=19675,5643700573, ve=10783,2929717488,     
+length=34, amValid=False, aamValid=False, amo=True, ame=33522,1897998957, aamo=True, aame=29450,0626456117, ve=10783,2929717488,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 169, 80
+Фазовое положение: 33, 130
+Фазовое положение: 122, 48
+Фазовое положение: 28, 58
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 169, 80
+Фазовое положение: 33, 130
+Фазовое положение: 122, 48
+Фазовое положение: 28, 58
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 169, 80
+Фазовое положение: 33, 130
+Фазовое положение: 122, 48
+Фазовое положение: 28, 58
+No observation
+***************************
+m=3, n=1, i=15,band=20,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 52, 112
+Фазовое положение: 164, 54
+length=62, amValid=False, aamValid=True, amo=True, ame=10779,472425717, aamo=True, aame=3592,61647249186, ve=7186,85595322512,     
+length=27,3333333333334, amValid=False, aamValid=True, amo=True, ame=8181,2336241459, aamo=True, aame=994,377670920778, ve=7186,85595322512,     
+length=30,6666666666666, amValid=True, aamValid=True, amo=True, ame=5014,94193808833, aamo=True, aame=5433,7426435237, ve=7186,85595322512,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 52, 112
+Фазовое положение: 164, 54
+length=24,2342891702208, amValid=True, aamValid=True, amo=True, ame=1757,46448269693, aamo=True, aame=1758,8900980441, ve=7186,85595322512,     
+length=13,5593360179114, amValid=True, aamValid=True, amo=True, ame=2962,16550088709, aamo=True, aame=2960,73988553992, ve=7186,85595322512,     
+length=24,2063748118678, amValid=True, aamValid=True, amo=True, ame=2099,04435682742, aamo=True, aame=2097,61874148026, ve=7186,85595322512,     
+length=3,12695852146554, amValid=True, aamValid=True, amo=True, ame=3496,25705976995, aamo=True, aame=3494,83144442278, ve=7186,85595322512,     
+length=21,1073306487552, amValid=True, aamValid=True, amo=True, ame=0, aamo=True, aame=0, ve=7186,85595322512,     
+length=3,09904416311262, amValid=True, aamValid=True, amo=True, ame=3494,88505730762, aamo=True, aame=3496,31067265479, ve=7186,85595322512,     
+length=6,46029185479874, amValid=True, aamValid=True, amo=True, ame=3005,35067963434, aamo=True, aame=3006,77629498151, ve=7186,85595322512,     
+length=17,773997315422, amValid=True, aamValid=True, amo=True, ame=1768,02622101252, aamo=True, aame=1769,45183635969, ve=7186,85595322512,     
+length=6,43237749644582, amValid=True, aamValid=True, amo=True, ame=3323,9964237953, aamo=True, aame=3325,42203914246, ve=7186,85595322512,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 52, 112
+Фазовое положение: 164, 54
+No observation
+////////////////////
+Количество спутников:2
+Фазовое положение: 52, 112
+Фазовое положение: 164, 54
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 84, 116
+Фазовое положение: 67, 130
+Фазовое положение: 36, 131
+length=2,66666666666669, amValid=False, aamValid=True, amo=True, ame=14222,0069379172, aamo=True, aame=7035,15098469207, ve=7186,85595322512,     
+length=77, amValid=False, aamValid=True, amo=True, ame=8673,29268130581, aamo=True, aame=1486,44647587792, ve=7186,85595322512,     
+length=30,6666666666667, amValid=False, aamValid=True, amo=True, ame=12295,231746387, aamo=True, aame=5433,75604674491, ve=7186,85595322512,     
+length=9,66666666666663, amValid=False, aamValid=True, amo=True, ame=13519,4527285615, aamo=True, aame=6556,86678351485, ve=7186,85595322512,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 84, 116
+Фазовое положение: 67, 130
+Фазовое положение: 36, 131
+length=2,66666666666669, amValid=True, aamValid=True, amo=True, ame=1871,47228233199, aamo=True, aame=1872,89789767915, ve=7186,85595322512,     
+length=11,9009558368875, amValid=True, aamValid=True, amo=True, ame=1128,12354150348, aamo=True, aame=1129,54915685065, ve=7186,85595322512,     
+length=9,66666666666663, amValid=True, aamValid=True, amo=True, ame=3078,52983050625, aamo=True, aame=3079,95544585342, ve=7186,85595322512,     
+length=2,66666666666669, amValid=True, aamValid=True, amo=True, ame=2448,18852162048, aamo=True, aame=2449,61413696765, ve=7186,85595322512,     
+length=28,5593360179114, amValid=True, aamValid=True, amo=True, ame=998,273134395044, aamo=True, aame=996,857266845116, ve=7186,85595322512,     
+length=24,2063748118679, amValid=True, aamValid=True, amo=True, ame=1617,97594106191, aamo=True, aame=1616,55032571474, ve=7186,85595322512,     
+length=6,46029185479881, amValid=True, aamValid=True, amo=True, ame=3182,97260409408, aamo=True, aame=3181,54698874691, ve=7186,85595322512,     
+length=9,66666666666663, amValid=True, aamValid=True, amo=True, ame=2888,47459065977, aamo=True, aame=2887,0489753126, ve=7186,85595322512,     
+length=2,66666666666669, amValid=True, aamValid=True, amo=True, ame=3519,91252673567, aamo=True, aame=3518,48691138851, ve=7186,85595322512,     
+length=5,44066398208864, amValid=True, aamValid=True, amo=True, ame=0, aamo=True, aame=0, ve=7186,85595322512,     
+length=6,43237749644591, amValid=True, aamValid=True, amo=True, ame=3323,954995657, aamo=True, aame=3325,38061100416, ve=7186,85595322512,     
+length=9,66666666666663, amValid=True, aamValid=True, amo=True, ame=2500,9362894657, aamo=True, aame=2502,36190481286, ve=7186,85595322512,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 84, 116
+Фазовое положение: 67, 130
+Фазовое положение: 36, 131
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 84, 116
+Фазовое положение: 67, 130
+Фазовое положение: 36, 131
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 24, 158
+Фазовое положение: 16, 89
+Фазовое положение: 135, 172
+Фазовое положение: 136, 176
+length=45,6666666666667, amValid=False, aamValid=True, amo=True, ame=11747,9282668124, aamo=True, aame=4561,07231358732, ve=7186,85595322512,     
+length=26,6666666666667, amValid=False, aamValid=False, amo=True, ame=12851,1084136391, aamo=True, aame=20655,420306266, ve=7186,85595322512,     
+length=2,33333333333334, amValid=False, aamValid=False, amo=True, ame=14240,9968654263, aamo=True, aame=15913,0572410306, ve=7186,85595322512,     
+length=1,99999999999999, amValid=False, aamValid=False, amo=True, ame=14259,9465832717, aamo=True, aame=16171,3129443059, ve=7186,85595322512,     
+length=43,3333333333333, amValid=True, aamValid=False, amo=True, ame=6262,43456771194, aamo=True, aame=17336,8887413016, ve=7186,85595322512,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 24, 158
+Фазовое положение: 16, 89
+Фазовое положение: 135, 172
+Фазовое положение: 136, 176
+length=21,4602918547988, amValid=True, aamValid=True, amo=True, ame=2558,46657033445, aamo=True, aame=2557,04095498728, ve=7186,85595322512,     
+length=2,77399731542198, amValid=True, aamValid=True, amo=True, ame=1073,44205437972, aamo=True, aame=1072,01643903255, ve=7186,85595322512,     
+length=21,4323774964459, amValid=True, aamValid=True, amo=True, ame=2308,6829213403, aamo=True, aame=2307,25730599313, ve=7186,85595322512,     
+length=2,46029185479881, amValid=True, aamValid=True, amo=True, ame=3530,43527386227, aamo=True, aame=3529,0096585151, ve=7186,85595322512,     
+length=2,33333333333335, amValid=True, aamValid=True, amo=True, ame=3536,983356662, aamo=True, aame=3535,55774131483, ve=7186,85595322512,     
+length=2, amValid=True, aamValid=True, amo=True, ame=3554,0688082842, aamo=True, aame=3552,64319293703, ve=7186,85595322512,     
+length=17,4406639820886, amValid=True, aamValid=True, amo=True, ame=0, aamo=True, aame=0, ve=7186,85595322512,     
+length=2,43237749644589, amValid=True, aamValid=True, amo=True, ame=3369,36754607485, aamo=True, aame=3367,94193072768, ve=7186,85595322512,     
+length=2,33333333333334, amValid=True, aamValid=True, amo=True, ame=3125,03900811425, aamo=True, aame=3123,61339276709, ve=7186,85595322512,     
+length=1,99999999999999, amValid=True, aamValid=True, amo=True, ame=2903,30099027029, aamo=True, aame=2901,87537492313, ve=7186,85595322512,     
+length=19,1269585214655, amValid=True, aamValid=True, amo=True, ame=1824,32949790302, aamo=True, aame=1822,90388255585, ve=7186,85595322512,     
+length=0,773997315421994, amValid=True, aamValid=True, amo=True, ame=808,852719844173, aamo=True, aame=807,427104497008, ve=7186,85595322512,     
+length=2,33333333333333, amValid=False, aamValid=False, amo=True, ame=21469,3199481341, aamo=True, aame=21470,7455634813, ve=7186,85595322512,     
+length=2, amValid=False, aamValid=False, amo=True, ame=21690,5644837425, aamo=True, aame=21691,9900990897, ve=7186,85595322512,     
+length=19,0990441631125, amValid=True, aamValid=True, amo=True, ame=2676,19924699199, aamo=True, aame=2677,62486233916, ve=7186,85595322512,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 24, 158
+Фазовое положение: 16, 89
+Фазовое положение: 135, 172
+Фазовое положение: 136, 176
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 24, 158
+Фазовое положение: 16, 89
+Фазовое положение: 135, 172
+Фазовое положение: 136, 176
+No observation
+***************************
+m=4, n=1, i=45,band=20,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 90, 37
+Фазовое положение: 53, 176
+length=7, amValid=True, aamValid=True, amo=True, ame=296,640009253577, aamo=True, aame=376,145905508312, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=57,8728880768413, aamo=True, aame=498,528593914569, ve=5389,05579909284,     
+length=12,159406424783, amValid=True, aamValid=True, amo=True, ame=431,158087051173, aamo=True, aame=242,614593298935, ve=5389,05579909284,     
+length=2,18118715043401, amValid=True, aamValid=True, amo=True, ame=815,009900865954, aamo=True, aame=258,638570045305, ve=5389,05579909284,     
+length=4,81881284956598, amValid=True, aamValid=True, amo=True, ame=1010,43060256493, aamo=True, aame=454,05927174428, ve=5389,05579909284,     
+length=2,18118715043401, amValid=True, aamValid=True, amo=True, ame=1213,12870047698, aamo=True, aame=525,50018665905, ve=5389,05579909284,     
+length=0,0688128495659797, amValid=True, aamValid=True, amo=True, ame=1147,08027676742, aamo=True, aame=668,064058687931, ve=5389,05579909284,     
+length=2,18118715043402, amValid=True, aamValid=True, amo=True, ame=1213,13966453906, aamo=True, aame=602,855299400209, ve=5389,05579909284,     
+length=33,5688128495659, amValid=True, aamValid=True, amo=True, ame=238,338609083345, aamo=True, aame=238,338609083345, ve=5389,05579909284,     
+length=2,18118715043416, amValid=True, aamValid=True, amo=True, ame=815,00990086596, aamo=True, aame=815,00990086596, ve=5389,05579909284,     
+length=4,81881284956586, amValid=True, aamValid=True, amo=True, ame=1010,43060256494, aamo=True, aame=1010,43060256494, ve=5389,05579909284,     
+length=2,18118715043414, amValid=True, aamValid=True, amo=True, ame=1213,12870047697, aamo=True, aame=1081,87151747971, ve=5389,05579909284,     
+length=0,0688128495658589, amValid=True, aamValid=True, amo=True, ame=1147,09124082954, aamo=True, aame=1147,08027676742, ve=5389,05579909284,     
+length=2,18118715043413, amValid=True, aamValid=True, amo=True, ame=1213,13966453905, aamo=True, aame=525,51115072114, ve=5389,05579909284,     
+length=12,159406424783, amValid=True, aamValid=True, amo=True, ame=805,687707072851, aamo=True, aame=249,316376252202, ve=5389,05579909284,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 90, 37
+Фазовое положение: 53, 176
+length=2,37859098613592, amValid=True, aamValid=True, amo=True, ame=1131,5149632852, aamo=True, aame=1130,48708246415, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=3971,1732390617, aamo=True, aame=1134,70459168192, ve=5389,05579909284,     
+length=2,37140901386408, amValid=True, aamValid=True, amo=True, ame=3968,55922392478, aamo=True, aame=71,8219160724402, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=3868,89589951528, aamo=True, aame=1316,56823060506, ve=5389,05579909284,     
+length=40,4014084998317, amValid=True, aamValid=True, amo=True, ame=2887,35194587345, aamo=True, aame=234,72046859323, ve=5389,05579909284,     
+length=7, amValid=True, aamValid=True, amo=True, ame=3870,03616197278, aamo=True, aame=1222,502973565, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=3972,43684721773, aamo=True, aame=1373,41963356374, ve=5389,05579909284,     
+length=26,4771824863042, amValid=True, aamValid=True, amo=True, ame=318,472197892792, aamo=True, aame=319,500078713845, ve=5389,05579909284,     
+length=4,62140901386408, amValid=True, aamValid=True, amo=True, ame=900,899622273308, aamo=True, aame=899,871741452251, ve=5389,05579909284,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 90, 37
+Фазовое положение: 53, 176
+length=7, amValid=True, aamValid=True, amo=True, ame=668,351865317833, aamo=True, aame=892,265423376455, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=825,699861404937, aamo=True, aame=973,45064847482, ve=5389,05579909284,     
+length=3,37395890910011, amValid=True, aamValid=True, amo=True, ame=919,730398915039, aamo=True, aame=153,517883729874, ve=5389,05579909284,     
+length=7, amValid=True, aamValid=True, amo=True, ame=1089,57742578617, aamo=True, aame=91,4640333089264, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=1165,58213154641, aamo=True, aame=167,468739069169, ve=5389,05579909284,     
+length=10,5320816677674, amValid=True, aamValid=True, amo=True, ame=0, aamo=True, aame=0, ve=5389,05579909284,     
+length=7, amValid=True, aamValid=True, amo=True, ame=0, aamo=True, aame=0, ve=5389,05579909284,     
+length=2,25, amValid=True, aamValid=True, amo=True, ame=1164,64744525313, aamo=True, aame=940,733887194514, ve=5389,05579909284,     
+length=48,3439594231325, amValid=True, aamValid=True, amo=True, ame=387,299097670635, aamo=True, aame=163,385539612016, ve=5389,05579909284,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 90, 37
+Фазовое положение: 53, 176
+No observation
+////////////////////
+Количество спутников:3
+Фазовое положение: 101, 159
+Фазовое положение: 178, 91
+Фазовое положение: 68, 116
+length=7,00000000000001, amValid=True, aamValid=True, amo=True, ame=911,921245690552, aamo=True, aame=376,173315663529, ve=5389,05579909284,     
+length=13,75, amValid=True, aamValid=True, amo=True, ame=420,425183935688, aamo=True, aame=420,425183935688, ve=5389,05579909284,     
+length=0,659406424782944, amValid=True, aamValid=True, amo=True, ame=805,674915667099, aamo=True, aame=805,674915667099, ve=5389,05579909284,     
+length=2,18118715043401, amValid=True, aamValid=True, amo=True, ame=884,08166469718, aamo=True, aame=884,08166469718, ve=5389,05579909284,     
+length=3,56881284956593, amValid=True, aamValid=True, amo=True, ame=1046,03456686258, aamo=True, aame=1046,03456686258, ve=5389,05579909284,     
+length=1,25000000000007, amValid=True, aamValid=True, amo=True, ame=1240,75356858773, aamo=True, aame=556,381381210902, ve=5389,05579909284,     
+length=0,931187150434067, amValid=True, aamValid=True, amo=True, ame=1250,25392838981, aamo=True, aame=135,953456259696, ve=5389,05579909284,     
+length=1,24999999999994, amValid=True, aamValid=True, amo=True, ame=1240,74443186932, aamo=True, aame=556,390517929311, ve=5389,05579909284,     
+length=11,568812849566, amValid=True, aamValid=True, amo=True, ame=821,924569358169, aamo=True, aame=821,924569358169, ve=5389,05579909284,     
+length=2,18118715043402, amValid=True, aamValid=True, amo=True, ame=1213,1314414925, aamo=True, aame=453,203161229314, ve=5389,05579909284,     
+length=6,409406424783, amValid=True, aamValid=True, amo=True, ame=965,453278851084, aamo=True, aame=965,453278851084, ve=5389,05579909284,     
+length=15,6594064247829, amValid=True, aamValid=True, amo=True, ame=404,965856387011, aamo=True, aame=370,515859624444, ve=5389,05579909284,     
+length=2,18118715043416, amValid=True, aamValid=True, amo=True, ame=884,081664697169, aamo=True, aame=815,037311021173, ve=5389,05579909284,     
+length=3,56881284956593, amValid=True, aamValid=True, amo=True, ame=1046,03456686259, aamo=True, aame=975,057797243026, ve=5389,05579909284,     
+length=1,24999999999994, amValid=True, aamValid=True, amo=True, ame=1240,75356858773, aamo=True, aame=1112,75271203154, ve=5389,05579909284,     
+length=0,93118715043407, amValid=True, aamValid=True, amo=True, ame=1250,2539283898, aamo=True, aame=420,417874560953, ve=5389,05579909284,     
+length=1,25000000000007, amValid=True, aamValid=True, amo=True, ame=1240,74443186932, aamo=True, aame=1112,76184874996, ve=5389,05579909284,     
+length=11,5688128495659, amValid=True, aamValid=True, amo=True, ame=821,924569358162, aamo=True, aame=821,908123265021, ve=5389,05579909284,     
+length=2,18118715043414, amValid=True, aamValid=True, amo=True, ame=1213,1314414925, aamo=True, aame=387,735832810606, ve=5389,05579909284,     
+length=0,659406424782929, amValid=True, aamValid=True, amo=True, ame=1129,87309498705, aamo=True, aame=573,501764166398, ve=5389,05579909284,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 101, 159
+Фазовое положение: 178, 91
+Фазовое положение: 68, 116
+length=2,37859098613593, amValid=True, aamValid=True, amo=True, ame=3619,6425666201, aamo=True, aame=1130,51449261937, ve=5389,05579909284,     
+length=4,62140901386408, amValid=True, aamValid=True, amo=True, ame=3920,1218249493, aamo=True, aame=1084,5184248029, ve=5389,05579909284,     
+length=3,40140849983174, amValid=True, aamValid=True, amo=True, ame=3947,70100946802, aamo=True, aame=1336,59591735841, ve=5389,05579909284,     
+length=5,7271824863042, amValid=True, aamValid=True, amo=True, ame=3543,58852258044, aamo=True, aame=1020,86930334764, ve=5389,05579909284,     
+length=4,62140901386407, amValid=True, aamValid=True, amo=True, ame=3307,66931653189, aamo=True, aame=707,665337289691, ve=5389,05579909284,     
+length=25,3785909861359, amValid=True, aamValid=True, amo=True, ame=2568,41743002914, aamo=True, aame=637,764873098757, ve=5389,05579909284,     
+length=3,52281751369581, amValid=True, aamValid=True, amo=True, ame=3943,79232133248, aamo=True, aame=898,419003225164, ve=5389,05579909284,     
+length=1,09859150016828, amValid=True, aamValid=True, amo=True, ame=3843,92342075878, aamo=True, aame=1038,99198431264, ve=5389,05579909284,     
+length=5,90140849983173, amValid=True, aamValid=True, amo=True, ame=3690,89252412011, aamo=True, aame=1257,1905250062, ve=5389,05579909284,     
+length=13,75, amValid=True, aamValid=True, amo=True, ame=3722,87560691213, aamo=True, aame=836,668491855387, ve=5389,05579909284,     
+length=14,9771824863042, amValid=True, aamValid=True, amo=True, ame=3002,58515212437, aamo=True, aame=712,1423293103, ve=5389,05579909284,     
+length=4,62140901386408, amValid=True, aamValid=True, amo=True, ame=3462,58237716289, aamo=True, aame=899,858036374633, ve=5389,05579909284,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 101, 159
+Фазовое положение: 178, 91
+Фазовое положение: 68, 116
+length=7,00000000000001, amValid=True, aamValid=True, amo=True, ame=863,480192027702, aamo=True, aame=892,25171829883, ve=5389,05579909284,     
+length=5,6239589091001, amValid=True, aamValid=True, amo=True, ame=882,260716718178, aamo=True, aame=633,723702546275, ve=5389,05579909284,     
+length=7,00000000000001, amValid=True, aamValid=True, amo=True, ame=1089,60483594138, aamo=True, aame=853,525737320677, ve=5389,05579909284,     
+length=1,1260410908999, amValid=True, aamValid=True, amo=True, ame=768,622781501537, aamo=True, aame=992,53633956016, ve=5389,05579909284,     
+length=11,6560405768675, amValid=True, aamValid=True, amo=True, ame=982,257531349605, aamo=True, aame=164,400629027303, ve=5389,05579909284,     
+length=0,967918332232593, amValid=True, aamValid=True, amo=True, ame=1185,94239484986, aamo=True, aame=388,97203081139, ve=5389,05579909284,     
+length=6,03208166776741, amValid=True, aamValid=True, amo=True, ame=289,144245470539, aamo=True, aame=513,057803529162, ve=5389,05579909284,     
+length=11,3439594231325, amValid=True, aamValid=True, amo=True, ame=1018,08534524831, aamo=True, aame=817,392757027119, ve=5389,05579909284,     
+length=2,40604057686755, amValid=True, aamValid=True, amo=True, ame=828,329408963145, aamo=True, aame=565,36551642284, ve=5389,05579909284,     
+length=10,2179183322326, amValid=True, aamValid=True, amo=True, ame=1037,44148319857, aamo=True, aame=812,545727910947, ve=5389,05579909284,     
+length=19,7820816677674, amValid=True, aamValid=True, amo=True, ame=529,508465025239, aamo=True, aame=305,594906966617, ve=5389,05579909284,     
+length=6,84395942313245, amValid=True, aamValid=True, amo=True, ame=1091,13523627496, aamo=True, aame=867,221678216338, ve=5389,05579909284,     
+////////////////////
+Количество спутников:3
+Фазовое положение: 101, 159
+Фазовое положение: 178, 91
+Фазовое положение: 68, 116
+No observation
+////////////////////
+Количество спутников:4
+Фазовое положение: 133, 43
+Фазовое положение: 95, 133
+Фазовое положение: 163, 92
+Фазовое положение: 105, 136
+length=5,99999999999998, amValid=True, aamValid=True, amo=True, ame=505,852587391491, aamo=True, aame=505,852587391491, ve=5389,05579909284,     
+length=8,65940642478292, amValid=True, aamValid=True, amo=True, ame=902,409008154529, aamo=True, aame=902,409008154529, ve=5389,05579909284,     
+length=2,18118715043414, amValid=True, aamValid=True, amo=True, ame=1213,13418250802, aamo=True, aame=612,014859605595, ve=5389,05579909284,     
+length=4,56881284956593, amValid=True, aamValid=True, amo=True, ame=1017,54901987768, aamo=True, aame=794,443147726444, ve=5389,05579909284,     
+length=2,18118715043401, amValid=True, aamValid=True, amo=True, ame=982,093070418254, aamo=True, aame=982,093070418254, ve=5389,05579909284,     
+length=1,81881284956594, amValid=True, aamValid=True, amo=True, ame=1096,31118725389, aamo=True, aame=1096,31118725389, ve=5389,05579909284,     
+length=2,00000000000003, amValid=True, aamValid=True, amo=True, ame=1218,47642176197, aamo=True, aame=934,807811634164, ve=5389,05579909284,     
+length=0,181187150434109, amValid=True, aamValid=True, amo=True, ame=1272,65167989858, aamo=True, aame=996,233969500419, ve=5389,05579909284,     
+length=1,9999999999999, amValid=True, aamValid=True, amo=True, ame=1218,4791627775, aamo=True, aame=1058,35908632498, ve=5389,05579909284,     
+length=0,568812849565912, amValid=True, aamValid=True, amo=True, ame=1132,53096637235, aamo=True, aame=1132,53096637235, ve=5389,05579909284,     
+length=2,18118715043414, amValid=True, aamValid=True, amo=True, ame=1213,13418250803, aamo=True, aame=1053,17856698688, ve=5389,05579909284,     
+length=5,90940642478299, amValid=True, aamValid=True, amo=True, ame=979,558544731484, aamo=True, aame=826,304712163663, ve=5389,05579909284,     
+length=10,75, amValid=True, aamValid=True, amo=True, ame=525,646374153606, aamo=True, aame=381,191201413982, ve=5389,05579909284,     
+length=4,74999999999996, amValid=True, aamValid=True, amo=True, ame=685,813961541829, aamo=True, aame=434,162240064177, ve=5389,05579909284,     
+length=5,90940642478299, amValid=True, aamValid=True, amo=True, ame=979,541184966503, aamo=True, aame=423,169854145854, ve=5389,05579909284,     
+length=2,18118715043402, amValid=True, aamValid=True, amo=True, ame=1213,13418250802, aamo=True, aame=505,828831923631, ve=5389,05579909284,     
+length=4,56881284956589, amValid=True, aamValid=True, amo=True, ame=1017,54901987768, aamo=True, aame=1017,54901987768, ve=5389,05579909284,     
+length=2,18118715043416, amValid=True, aamValid=True, amo=True, ame=982,093070418247, aamo=True, aame=870,192025371231, ve=5389,05579909284,     
+length=1,81881284956594, amValid=True, aamValid=True, amo=True, ame=1096,31118725388, aamo=True, aame=982,107689167693, ve=5389,05579909284,     
+length=1,9999999999999, amValid=True, aamValid=True, amo=True, ame=1218,47642176197, aamo=True, aame=1091,06305619955, ve=5389,05579909284,     
+length=0,181187150434098, amValid=True, aamValid=True, amo=True, ame=1272,65167989856, aamo=True, aame=558,785251824411, ve=5389,05579909284,     
+length=2,00000000000004, amValid=True, aamValid=True, amo=True, ame=1218,47916277748, aamo=True, aame=1091,10143041683, ve=5389,05579909284,     
+length=0,56881284956593, amValid=True, aamValid=True, amo=True, ame=1132,53096637234, aamo=True, aame=1017,50516362931, ve=5389,05579909284,     
+length=2,181187150434, amValid=True, aamValid=True, amo=True, ame=1213,13418250803, aamo=True, aame=939,879604023234, ve=5389,05579909284,     
+length=12,659406424783, amValid=True, aamValid=True, amo=True, ame=791,990852505376, aamo=True, aame=791,990852505376, ve=5389,05579909284,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 133, 43
+Фазовое положение: 95, 133
+Фазовое положение: 163, 92
+Фазовое положение: 105, 136
+length=1,3785909861359, amValid=True, aamValid=True, amo=True, ame=3675,01747588383, aamo=True, aame=1039,34009328405, ve=5389,05579909284,     
+length=4,62140901386408, amValid=True, aamValid=True, amo=True, ame=3806,54510574601, aamo=True, aame=1131,01244377268, ve=5389,05579909284,     
+length=2,65140849983176, amValid=True, aamValid=True, amo=True, ame=3963,85198660025, aamo=True, aame=1360,5587887307, ve=5389,05579909284,     
+length=4,74999999999997, amValid=True, aamValid=True, amo=True, ame=3918,66360469116, aamo=True, aame=1293,6615638809, ve=5389,05579909284,     
+length=20,2271824863042, amValid=True, aamValid=True, amo=True, ame=2513,15672974553, aamo=True, aame=533,828305489202, ve=5389,05579909284,     
+length=4,62140901386409, amValid=True, aamValid=True, amo=True, ame=3920,11999760563, aamo=True, aame=647,743996945464, ve=5389,05579909284,     
+length=6,12859098613591, amValid=True, aamValid=True, amo=True, ame=3685,88651610361, aamo=True, aame=1033,2550388234, ve=5389,05579909284,     
+length=4,6214090138641, amValid=True, aamValid=True, amo=True, ame=3920,11725659009, aamo=True, aame=1048,69700660708, ve=5389,05579909284,     
+length=0,128590986135876, amValid=True, aamValid=True, amo=True, ame=3817,24694401891, aamo=True, aame=1203,53697349081, ve=5389,05579909284,     
+length=0,522817513695841, amValid=True, aamValid=True, amo=True, ame=4008,27105681931, aamo=True, aame=1150,43071140814, ve=5389,05579909284,     
+length=4,09859150016825, amValid=True, aamValid=True, amo=True, ame=3908,85442380686, aamo=True, aame=1194,22117540061, ve=5389,05579909284,     
+length=1,90140849983173, amValid=True, aamValid=True, amo=True, ame=3979,942661391, aamo=True, aame=1384,62581869284, ve=5389,05579909284,     
+length=29,7271824863042, amValid=True, aamValid=True, amo=True, ame=3055,71334233122, aamo=True, aame=415,498665369349, ve=5389,05579909284,     
+length=2,52281751369583, amValid=True, aamValid=True, amo=True, ame=3276,52589816169, aamo=True, aame=1364,70868623224, ve=5389,05579909284,     
+length=2,09859150016825, amValid=True, aamValid=True, amo=True, ame=3383,34327308573, aamo=True, aame=1139,70237665185, ve=5389,05579909284,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 133, 43
+Фазовое положение: 95, 133
+Фазовое положение: 163, 92
+Фазовое положение: 105, 136
+length=5,99999999999998, amValid=True, aamValid=True, amo=True, ame=979,681890430016, aamo=True, aame=909,415957502686, ve=5389,05579909284,     
+length=6,62395890910013, amValid=True, aamValid=True, amo=True, ame=898,97268836078, aamo=True, aame=544,723842192383, ve=5389,05579909284,     
+length=5,99999999999998, amValid=True, aamValid=True, amo=True, ame=1105,70007909135, aamo=True, aame=327,882104182623, ve=5389,05579909284,     
+length=13,7820816677674, amValid=True, aamValid=True, amo=True, ame=346,572175360852, aamo=True, aame=570,485733419475, ve=5389,05579909284,     
+length=5,84395942313247, amValid=True, aamValid=True, amo=True, ame=688,198645046687, aamo=True, aame=912,112203105309, ve=5389,05579909284,     
+length=0,156040576867518, amValid=True, aamValid=True, amo=True, ame=790,369998659546, aamo=True, aame=643,05686040147, ve=5389,05579909284,     
+length=10,5939594231325, amValid=True, aamValid=True, amo=True, ame=1030,31849752661, aamo=True, aame=830,377861230525, ve=5389,05579909284,     
+length=1,8739589091001, amValid=True, aamValid=True, amo=True, ame=1171,59043757243, aamo=True, aame=881,522469870695, ve=5389,05579909284,     
+length=2,87604109089986, amValid=True, aamValid=True, amo=True, ame=898,958069611326, aamo=True, aame=962,80728519972, ve=5389,05579909284,     
+length=7,87395890910015, amValid=True, aamValid=True, amo=True, ame=1075,4657642029, aamo=True, aame=334,40206643955, ve=5389,05579909284,     
+length=4,74999999999994, amValid=True, aamValid=True, amo=True, ame=1125,74695295337, aamo=True, aame=127,633560476126, ve=5389,05579909284,     
+length=4,28208166776749, amValid=True, aamValid=True, amo=True, ame=177,34187698234, aamo=True, aame=46,5716810762824, ve=5389,05579909284,     
+length=10,75, amValid=True, aamValid=True, amo=True, ame=1027,78671285538, aamo=True, aame=803,873154796762, ve=5389,05579909284,     
+length=4,74999999999997, amValid=True, aamValid=True, amo=True, ame=1124,7748061146, aamo=True, aame=900,861248055986, ve=5389,05579909284,     
+length=3,84395942313247, amValid=True, aamValid=True, amo=True, ame=1139,25010909059, aamo=True, aame=915,336551031967, ve=5389,05579909284,     
+////////////////////
+Количество спутников:4
+Фазовое положение: 133, 43
+Фазовое положение: 95, 133
+Фазовое положение: 163, 92
+Фазовое положение: 105, 136
+No observation
+***************************
+m=8, n=1, i=90,band=20,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 153, 61
+Фазовое положение: 136, 103
+length=0,625000000000007, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139155616169, ve=2696,32541902558,     
+length=1,87499999999999, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139155616169, ve=2696,32541902558,     
+length=3,12500000000001, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139155616169, ve=2696,32541902558,     
+length=5,75000000000001, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139155616169, ve=2696,32541902558,     
+length=2,5, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139155616169, ve=2696,32541902558,     
+length=2,5, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=3,62499999999999, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=3,125, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=1,875, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=0,625000000000007, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=2,5, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=5,75000000000001, amValid=True, aamValid=True, amo=True, ame=0,00777139149795403, aamo=True, aame=0,00777139149795403, ve=2696,32541902558,     
+length=5, amValid=True, aamValid=True, amo=True, ame=0,0077713914506603, aamo=True, aame=0,0077713914506603, ve=2696,32541902558,     
+length=3,62499999999999, amValid=True, aamValid=True, amo=True, ame=0,00777139148340211, aamo=True, aame=0,00777139154160977, ve=2696,32541902558,     
+length=2,5, amValid=True, aamValid=True, amo=True, ame=0,00777139148340211, aamo=True, aame=0,00777139154160977, ve=2696,32541902558,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 153, 61
+Фазовое положение: 136, 103
+length=3,25667664843202, amValid=True, aamValid=True, amo=True, ame=47,1705177624972, aamo=True, aame=37,7419913261983, ve=2696,32541902558,     
+length=1,52332205325659, amValid=True, aamValid=True, amo=True, ame=36,4939972815846, aamo=True, aame=27,0654708452857, ve=2696,32541902558,     
+length=9,0950012983114, amValid=True, aamValid=True, amo=True, ame=22,931090574275, aamo=True, aame=19,0362520173076, ve=2696,32541902558,     
+length=3,25667664843202, amValid=True, aamValid=True, amo=True, ame=47,8224003660143, aamo=True, aame=4,84066261501721, ve=2696,32541902558,     
+length=0,588324649879993, amValid=True, aamValid=True, amo=True, ame=62,5720442673919, aamo=True, aame=8,70807273128594, ve=2696,32541902558,     
+length=0,934997403376599, amValid=True, aamValid=True, amo=True, ame=61,6874770599097, aamo=True, aame=10,6006351286778, ve=2696,32541902558,     
+length=0,588324649879997, amValid=True, aamValid=True, amo=True, ame=54,0349421487626, aamo=True, aame=27,6556394576328, ve=2696,32541902558,     
+length=6,38167664843138, amValid=True, aamValid=True, amo=True, ame=37,084165893888, aamo=True, aame=23,6840012671455, ve=2696,32541902558,     
+length=3,25667664843202, amValid=True, aamValid=True, amo=True, ame=47,8004576135863, aamo=True, aame=8,30304609268205, ve=2696,32541902558,     
+length=1,52332205325659, amValid=True, aamValid=True, amo=True, ame=60,0815418661805, aamo=True, aame=19,1441372168447, ve=2696,32541902558,     
+length=1,19000259662342, amValid=True, aamValid=True, amo=True, ame=52,4290069550188, aamo=True, aame=26,049704263889, ve=2696,32541902558,     
+length=1,5233220532566, amValid=True, aamValid=True, amo=True, ame=60,0879418356926, aamo=True, aame=19,1583085777675, ve=2696,32541902558,     
+length=10,2266779467434, amValid=True, aamValid=True, amo=True, ame=32,6046444127642, aamo=True, aame=23,1761179764653, ve=2696,32541902558,     
+length=1,5233220532566, amValid=True, aamValid=True, amo=True, ame=60,0893132577257, aamo=True, aame=4,31220799381117, ve=2696,32541902558,     
+length=0,131676648431359, amValid=True, aamValid=True, amo=True, ame=55,6664772203512, aamo=True, aame=46,2379507840524, ve=2696,32541902558,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 153, 61
+Фазовое положение: 136, 103
+length=1,61005460226821, amValid=True, aamValid=True, amo=True, ame=185,909055711294, aamo=True, aame=40,3879215571937, ve=2696,32541902558,     
+length=2,02989079546478, amValid=True, aamValid=True, amo=True, ame=204,05296912972, aamo=True, aame=54,8495668328817, ve=2696,32541902558,     
+length=3,67964440036335, amValid=True, aamValid=True, amo=True, ame=175,988645907921, aamo=True, aame=78,9797373995705, ve=2696,32541902558,     
+length=2,36082040380852, amValid=True, aamValid=True, amo=True, ame=203,332972565495, aamo=True, aame=106,40132083128, ve=2696,32541902558,     
+length=3,67964440036334, amValid=True, aamValid=True, amo=True, ame=175,911389133777, aamo=True, aame=8,1745895628701, ve=2696,32541902558,     
+length=0,514945397731807, amValid=True, aamValid=True, amo=True, ame=211,863674714652, aamo=True, aame=26,0716470164189, ve=2696,32541902558,     
+length=1,51494539773297, amValid=True, aamValid=True, amo=True, ame=201,434010198616, aamo=True, aame=90,8557950134455, ve=2696,32541902558,     
+length=3,67964440036334, amValid=True, aamValid=True, amo=True, ame=175,987274485917, aamo=True, aame=70,572463232751, ve=2696,32541902558,     
+length=6,55541020190368, amValid=True, aamValid=True, amo=True, ame=184,079578727135, aamo=True, aame=35,5189162203751, ve=2696,32541902558,     
+length=3,43041020190485, amValid=True, aamValid=True, amo=True, ame=142,031779376503, aamo=True, aame=83,2046315243097, ve=2696,32541902558,     
+length=3,67964440036335, amValid=True, aamValid=True, amo=True, ame=115,371335169824, aamo=True, aame=56,5441873176314, ve=2696,32541902558,     
+length=2,02989079546478, amValid=True, aamValid=True, amo=True, ame=134,948841747173, aamo=True, aame=38,0235899824474, ve=2696,32541902558,     
+length=3,67964440036335, amValid=True, aamValid=True, amo=True, ame=157,783018498259, aamo=True, aame=60,8577667335339, ve=2696,32541902558,     
+length=4,48582040380854, amValid=True, aamValid=True, amo=True, ame=193,453705422929, aamo=True, aame=96,5284536582039, ve=2696,32541902558,     
+length=2,06958979809513, amValid=True, aamValid=True, amo=True, ame=168,464567526651, aamo=True, aame=26,4817022024363, ve=2696,32541902558,     
+////////////////////
+Количество спутников:2
+Фазовое положение: 153, 61
+Фазовое положение: 136, 103

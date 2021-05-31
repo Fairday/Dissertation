@@ -1,0 +1,630 @@
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=5665,43850039176,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=8,14907252788544E-10,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=0,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=5665,43850039176,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=8,14907252788544E-10,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=5,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=5665,43850039176,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=8,14907252788544E-10,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=10,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=5665,43850039176,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=8,14907252788544E-10,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=20,     longt=100,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=40,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=60,     longt=140,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=80,     longt=160,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=80,     latArg=100,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=20,     longt=120,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=40,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=60,     longt=160,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=100,     latArg=80,     longt=180,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=20,     longt=140,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=40,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=120,     latArg=60,     longt=180,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=140,     latArg=20,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=140,     latArg=40,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=15,5,     ascNode=160,     latArg=20,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=20,     longt=20,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=40,     longt=40,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=60,     longt=60,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=80,     longt=80,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=100,     longt=100,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=120,     longt=120,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=140,     longt=140,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=160,     longt=160,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=5665,43850039176,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=0,     latArg=180,     longt=180,     obserAnalytic=59,     observModel=59,     long=2,857143,     error=8,14907252788544E-10,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=20,     longt=40,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=40,     longt=60,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=60,     longt=80,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=80,     longt=100,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=100,     longt=120,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=120,     longt=140,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=140,     longt=160,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=5690,61820247057,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=20,     latArg=160,     longt=180,     obserAnalytic=59,     observModel=59,     long=1,269841,     error=25,1869636817137,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=20,     longt=60,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=40,     longt=80,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=60,     longt=100,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=80,     longt=120,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=100,     longt=140,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=120,     longt=160,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5625,15097706559,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=40,     latArg=140,     longt=180,     obserAnalytic=59,     observModel=59,     long=5,396825,     error=5670,47616976092,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=5685,58226205488,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=20,     longt=80,     obserAnalytic=59,     observModel=59,     long=1,587302,     error=20,1454906163854,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5660,40255997601,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=40,     longt=100,     obserAnalytic=59,     observModel=59,     long=3,174603,     error=5705,72567792796,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5635,22285789715,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=60,     longt=120,     obserAnalytic=59,     observModel=59,     long=4,761905,     error=5680,54891506932,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=5700,69008330219,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=80,     longt=140,     obserAnalytic=59,     observModel=59,     long=0,634921,     error=35,2597089900519,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=5675,51038122326,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=100,     longt=160,     obserAnalytic=59,     observModel=59,     long=2,222222,     error=10,0829461301691,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5650,33067914444,     limit=1337,04218038719,     length=5,71428571428571,     
+Equator,     m=63,n=4, i=0, fi=0,band=20,5,     ascNode=60,     latArg=120,     longt=180,     obserAnalytic=59,     observModel=59,     long=3,809524,     error=5695,65293261956,     limit=1337,04218038719,     length=5,71428571428571,     
+---------------

@@ -16,7 +16,9 @@ namespace Dissertation.Modeling.Model.EarchModel
             Longitude = longitude;
         }
 
+        //Широты
         public Angle Latitude { get; }
+        //Долгота
         public Angle Longitude { get;}
     }
 }
