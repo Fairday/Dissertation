@@ -89,10 +89,11 @@ namespace Dissertation.Modeling.Model.BallisticTasks
 
                 foreach (var satellite in tier.Satellites)
                 {
-                    // Рассчитываем проекцию спутника на межузловое расстояние
+                    // Рассчитываем проекцию спутника на межузловое расстояние собственного яруса
                     SingleSatellitePeriodicityViewAnalyticBallisticTask.CalculateOffset(satellite.Orbit,
                         satellite.PhasePosition, out double timeoffet, out Angle longitude, out double asc);
 
+                    // Необходимо выполнить проекцию полученной долготы на анализируемую долготу спутниковой системы
                     if (longitude != 0)
                     {
                         foreach (var invariantSector in tierBasicInvariantAreas.InvariantSectors)
@@ -112,7 +113,7 @@ namespace Dissertation.Modeling.Model.BallisticTasks
             //5. Добавляем начало анализируемого участка
             if (unique.Add(0d))
                 borders.Add(0d);
-            //5. Добавляем границу анализируемого участка
+            //5.1 Добавляем границу анализируемого участка
             if (unique.Add(analysingLongitude.Grad))
                 borders.Add(analysingLongitude.Grad);
             //6. Сортируем границы участков инвариантности

@@ -140,7 +140,7 @@ namespace Dissertation.Modeling.Algorithms
                     latitude = MathConstants.HPI;
                 else
                     latitude = -MathConstants.HPI;
-                longitude = 0;// ouble.NaN;
+                longitude = 0;// double.NaN;
             }
             else
             {
