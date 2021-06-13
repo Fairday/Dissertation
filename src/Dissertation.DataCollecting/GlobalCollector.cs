@@ -5,11 +5,11 @@ namespace Dissertation.DataCollecting
 {
     public static class GlobalCollector
     {
-        public static IDataCollector DataCollector { get; }
+        public static IDataCollector DC { get; }
 
         static GlobalCollector() 
         {
-            DataCollector = new DataCollector();
+            DC = new DataCollector();
         }
     }
 }

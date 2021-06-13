@@ -6,7 +6,7 @@ namespace Dissertation.DataCollecting.Reporting
 {
     public static class GlobalReporter
     {
-        public static IReportGenerator FileReportGenerator(string filename) 
+        public static IReportGenerator GetFileReportGenerator(string filename) 
         {
             if (string.IsNullOrEmpty(filename))
                 throw new ArgumentNullException("Filename cannot be null or empty", nameof(filename));

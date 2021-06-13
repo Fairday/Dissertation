@@ -263,9 +263,9 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         {
             return Task.Run(() =>
             {
-                using (GlobalCollector.DataCollector.Open("analytic_basic_invariant_sectors"))
+                using (GlobalCollector.DC.Open("analytic_basic_invariant_sectors"))
                 {
-                    GlobalCollector.DataCollector.Collect("Расчет параметров участков инвариантности для спутника с нулевым фазовом положением");
+                    GlobalCollector.DC.Collect("Расчет параметров участков инвариантности для спутника с нулевым фазовом положением");
 
                     Active = true;
                     Orbit.RecalculateOrbitCommand.Execute(null);
@@ -300,9 +300,8 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                     Active = false;
                 }
 
-                var snapshot = GlobalCollector.DataCollector.Get("analytic_basic_invariant_sectors");
-
-                snapshot.GenerateReport(GlobalReporter.FileReportGenerator(string.Format("analytic0 m={0} n={1} i={2} band={3}", Orbit.NCoil, Orbit.NDay, Orbit.InputOrbitParameters.Inclination, Band) + ".txt"));
+                var snapshot = GlobalCollector.DC.Get("analytic_basic_invariant_sectors");
+                snapshot.GenerateReport(GlobalReporter.GetFileReportGenerator(string.Format("analytic0 m={0} n={1} i={2} band={3}", Orbit.NCoil, Orbit.NDay, Orbit.InputOrbitParameters.Inclination, Band) + ".txt"));
             });
         }
 
