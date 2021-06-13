@@ -6,6 +6,7 @@ using Dissertation.Algorithms.Algorithms.Newton;
 using Dissertation.Algorithms.Model;
 using Dissertation.Algorithms.OrbitalMath;
 using Dissertation.Algorithms.Resources;
+using Dissertation.DataCollecting.Extensions;
 using Dissertation.Modeling.Helpers;
 using Dissertation.Modeling.Model.Basics;
 using System;
@@ -158,6 +159,9 @@ namespace Dissertation.Modeling.Model.OrbitalModel
 
             OrbitPrecession = -3 * Math.PI * Constants.J2 * Math.Pow(Constants.Re / Radius, 2) * Math.Cos(InputOrbitParameters.InclinationAngle.Rad);
             DxTurnRestored = Constants.we * EraTurn + (InputOrbitParameters.Inclination > 90 ? - Math.Abs(OrbitPrecession) : Math.Abs(OrbitPrecession));
+
+            DxNode.Collect(v => string.Format("Межузловое расстояние: {0} рад, {1} град", v, DxNodeGrad));
+            DxTurn.Collect(v => string.Format("Межвитковое расстояние: {0} рад, {1} град", v, DxTurnGrad));
         }
     }
 }

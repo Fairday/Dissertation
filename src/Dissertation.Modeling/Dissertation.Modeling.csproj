@@ -252,6 +252,14 @@
       <Project>{9af6befe-b810-4237-bf5d-b86fb8541c1a}</Project>
       <Name>Dissertation.Algorithms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Dissertation.DataCollecting.Reporting\Dissertation.DataCollecting.Reporting.csproj">
+      <Project>{9D29C9E9-C756-467B-9B08-51AF3D78D25C}</Project>
+      <Name>Dissertation.DataCollecting.Reporting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dissertation.DataCollecting\Dissertation.DataCollecting.csproj">
+      <Project>{470f578f-dc81-4915-bd38-527098e82f89}</Project>
+      <Name>Dissertation.DataCollecting</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">

@@ -126,10 +126,15 @@ namespace Dissertation.Modeling.Model.BallisticTasks
         public Angle Length { get; }
         public Angle Center => (Start + Stop) / 2;
         public Angle Stop { get; set; }
-        public ObservationStream ObservationStream { get; }
+        public ObservationStream ObservationStream { get; private set; }
 
         public ObservationStreamsCompareResult Analytic_Modeling { get; set; }
         public ObservationStreamsCompareResult Accuracy_Analytic_Modeling { get; set; }
+
+        public ObservationStream ShiftObservationStream(double timeOffset)
+        {
+            return ObservationStream = ObservationStream + timeOffset;
+        }
 
         public override string ToString()
         {

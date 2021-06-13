@@ -5,6 +5,9 @@ using ATS.WPF.Modules.Helpers;
 using ATS.WPF.Shell.Model;
 using Dissertation.Algorithms.Algorithms.Helpers;
 using Dissertation.Algorithms.OrbitalMath;
+using Dissertation.DataCollecting;
+using Dissertation.DataCollecting.Reporting;
+using Dissertation.DataCollecting.Reporting.Extensions;
 using Dissertation.Modeling.Algorithms;
 using Dissertation.Modeling.Helpers;
 using Dissertation.Modeling.Model;
@@ -78,6 +81,7 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         public bool Active { get => Get(); set => Set(value); }
         public bool ShowPointsCharting { get => Get(); set => Set(value); }
         public bool ShowCalculationResults { get => Get(); set => Set(value); }
+        public string ObservationPrinciple { get => Get(); set => Set(value); }
 
         public bool X1 { get => Get(); set => Set(value); }
         public bool X2 { get => Get(); set => Set(value); }
@@ -259,36 +263,102 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
         {
             return Task.Run(() =>
             {
-                Active = true;
-                Orbit.RecalculateOrbitCommand.Execute(null);
-                var latitude = new Angle(EarchPointLatitude);
-                var phasePosition = new PhasePosition(SatelliteAscendingLongitude, SatelliteArgumentLatitude);
-                var beamEquipment = new BeamEquipment(new Angle(Band / 2));
-                var satellite = new Satellite(Orbit, beamEquipment, phasePosition);
-                var singleSatellitePeriodicityViewAnalyticBallisticTask = new SingleSatellitePeriodicityViewAnalyticBallisticTask(satellite);
-                var result = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateAnalytic(latitude);
-
-                if (!result.IsEmpty)
+                using (GlobalCollector.DataCollector.Open("analytic_basic_invariant_sectors"))
                 {
-                    foreach (var invariantSector in result.InvariantSectors)
+                    GlobalCollector.DataCollector.Collect("Расчет параметров участков инвариантности для спутника с нулевым фазовом положением");
+
+                    Active = true;
+                    Orbit.RecalculateOrbitCommand.Execute(null);
+                    var latitude = new Angle(EarchPointLatitude);
+                    var phasePosition = new PhasePosition(SatelliteAscendingLongitude, SatelliteArgumentLatitude);
+                    var beamEquipment = new BeamEquipment(new Angle(Band / 2));
+                    var satellite = new Satellite(Orbit, beamEquipment, phasePosition);
+                    var singleSatellitePeriodicityViewAnalyticBallisticTask = new SingleSatellitePeriodicityViewAnalyticBallisticTask(satellite);
+                    var result = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateAnalytic(latitude);
+
+                    if (!result.IsEmpty)
                     {
-                        var longitude = invariantSector.Center;
-                        var earchLocation = new EarchLocation(latitude, longitude);
-                        var observationStreamByModeling = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
-                            phasePosition, _MoveModelingAlgorithm, beamEquipment.Band);
-                        var observationStreamByAnalytic = invariantSector.ObservationStream;
-                        var compareResult = ObservationStreamExtensions.CompareStreams(Orbit, observationStreamByAnalytic, observationStreamByModeling, Orbit.EraTurn / 4);
-                        if (!compareResult.IsValid)
+                        foreach (var invariantSector in result.InvariantSectors)
                         {
-                        }
-                        else
-                        {
+                            var longitude = invariantSector.Center;
+                            var earchLocation = new EarchLocation(latitude, longitude);
+                            var observationStreamByModeling = singleSatellitePeriodicityViewAnalyticBallisticTask.CalculateModeling(Orbit, earchLocation,
+                                phasePosition, _MoveModelingAlgorithm, beamEquipment.Band);
+                            var observationStreamByAnalytic = invariantSector.ObservationStream;
+                            var compareResult = ObservationStreamExtensions.CompareStreams(Orbit, observationStreamByAnalytic, observationStreamByModeling, Orbit.EraTurn / 4);
+                            if (!compareResult.IsValid)
+                            {
+                                throw new Exception("Invalid invariant sector");
+                            }
+                            else
+                            {
+                            }
                         }
                     }
+
+                    CalculatePeriodicityViewDistributionFunction(result);
+                    Active = false;
                 }
 
-                Active = false;
+                var snapshot = GlobalCollector.DataCollector.Get("analytic_basic_invariant_sectors");
+
+                snapshot.GenerateReport(GlobalReporter.FileReportGenerator(string.Format("analytic0 m={0} n={1} i={2} band={3}", Orbit.NCoil, Orbit.NDay, Orbit.InputOrbitParameters.Inclination, Band) + ".txt"));
             });
+        }
+
+        private void CalculatePeriodicityViewDistributionFunction(PeriodicityViewResult result)
+        {
+            var distributionFunctionParts = new List<DistributionFunctionPart>();
+            var firstSector = result.InvariantSectors[0];
+            DistributionFunctionPart previous = new DistributionFunctionPart(0d, 0d, double.NegativeInfinity, (double)firstSector.Periodicity);
+            distributionFunctionParts.Add(previous);
+            for (int i = 1; i <= result.InvariantSectors.Length; i++)
+            {
+                var sector = result.InvariantSectors[i - 1];
+                var probability = sector.Length.Rad / Orbit.DxNode;
+                var last = i == result.InvariantSectors.Length;
+                var first = i == 1;
+                var accumulativeProbability = first ? probability : last ? probability + distributionFunctionParts.Sum(d => d.Probability) : distributionFunctionParts.Sum(d => d.Probability);
+                previous = new DistributionFunctionPart(probability, accumulativeProbability, previous.RightPeriodicity, last ? double.PositiveInfinity : (double)sector.Periodicity);
+                distributionFunctionParts.Add(previous);
+            }
+        }
+
+        private class DistributionFunctionPart
+        {
+
+            public double Probability { get; }
+            public double AccumulativeProbability { get; }
+            public double LeftPeriodicity { get; }
+            public double RightPeriodicity { get; }
+
+            public DistributionFunctionPart(
+                double probability,
+                double accumulativeProbability,
+                double leftPeriodicity, 
+                double rightPeriodicity)
+            {
+                Probability = probability;
+                AccumulativeProbability = accumulativeProbability;
+                LeftPeriodicity = leftPeriodicity;
+                RightPeriodicity = rightPeriodicity;
+            }
+
+            public override string ToString()
+            {
+                if (double.IsNegativeInfinity(LeftPeriodicity))
+                {
+                    return $"p = {Math.Round(AccumulativeProbability * 100, 3)}%      " + "-∞" + " < " + "t[r]" + " < " + RightPeriodicity.ToString();
+                }
+                else if (double.IsPositiveInfinity(RightPeriodicity))
+                {
+                    return $"p = {Math.Round(AccumulativeProbability * 100, 3)}%      " + LeftPeriodicity.ToString() + " <= " + "t[r]" + " < " + "+∞";
+                }
+                else 
+                {
+                    return $"p = {Math.Round(AccumulativeProbability * 100, 3)}%      " + LeftPeriodicity.ToString() + " <= " + "t[r]" + " < " + RightPeriodicity.ToString();
+                }
+            }
         }
 
         Task StartBatchAnalyticForCustomLocation()
@@ -506,7 +576,8 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                             new EarchLocation(latitude, invariantSector.Center),
                             new PhasePosition(0, 0), _MoveModelingAlgorithm, beamEquipment.Band);
                 //Смещение аналитического потока наблюдения
-                var observationStreamByAnalytic = invariantSector.ObservationStream + timeoffset;
+                //var observationStreamByAnalytic = invariantSector.ObservationStream + timeoffset;
+                var observationStreamByAnalytic = invariantSector.ShiftObservationStream(timeoffset);
                 //Смещение уточненного аналитического потока наблюдения
                 var shiftedObservationStreamByModelingFromAnalytic = observationStreamByModelingFromAnalytic + timeoffset;
                 //Поток наблюдения, полученный с помощью моделирования
@@ -514,6 +585,8 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
                             phasePosition, _MoveModelingAlgorithm, beamEquipment.Band);
                 var compareResult = ObservationStreamExtensions.CompareStreams(Orbit, observationStreamByAnalytic, observationStreamByModeling, Orbit.EraTurn / 4);
                 var compareResult1 = ObservationStreamExtensions.CompareStreams(Orbit, shiftedObservationStreamByModelingFromAnalytic, observationStreamByModeling, Orbit.EraTurn / 4);
+
+                CalculatePeriodicityViewDistributionFunction(result);
 
                 Active = false;
             });
@@ -895,6 +968,24 @@ namespace Dissertation.Modeling.Modules.OrbitalEvaluatorModule
             dt = 1;
             Band = 17.9671;
             _MoveModelingAlgorithm = new MoveModelingAlgorithm(Orbit);
+
+            this.ToFluent().Bind(o => o.EarchPointLatitude).OnSet((oV, nV) =>
+            {
+                ObservationPrinciple = OM.DetermineObservationPrinciple(nV, InputOrbitParameters.Inclination, Band).ToString();
+                return nV;
+            });
+
+            this.ToFluent().Bind(o => o.Band).OnSet((oV, nV) =>
+            {
+                ObservationPrinciple = OM.DetermineObservationPrinciple(EarchPointLatitude.ToGrad(), InputOrbitParameters.Inclination, nV).ToString();
+                return nV;
+            });
+
+            this.InputOrbitParameters.ToFluent().Bind(o => o.Inclination).OnSet((oV, nV) =>
+            {
+                ObservationPrinciple = OM.DetermineObservationPrinciple(nV, nV, Band).ToString();
+                return nV;
+            });
 
             this.ToFluent().Bind(o => o.X1).OnSet((oV, nV) =>
             {

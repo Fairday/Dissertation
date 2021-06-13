@@ -602,6 +602,23 @@
                                     TextWrapping="Wrap" />
                             </UniformGrid>
                         </GroupBox>
+                        <GroupBox
+                            Margin="5"
+                            VerticalAlignment="Top"
+                            DockPanel.Dock="Top"
+                            Header="Принцип наблюдения"
+                            Style="{DynamicResource MaterialDesignCardGroupBox}">
+                            <UniformGrid Columns="2" Rows="1">
+                                <TextBox
+                                    VerticalAlignment="Top"
+                                    materialDesign:HintAssist.Hint="Принципе наблюдения"
+                                    AcceptsReturn="True"
+                                    FontSize="15"
+                                    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+                                    Text="{Binding ObservationPrinciple}"
+                                    TextWrapping="Wrap" />
+                            </UniformGrid>
+                        </GroupBox>
                     </DockPanel>
                 </ScrollViewer>
             </TabItem>
